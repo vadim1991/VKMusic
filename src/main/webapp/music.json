@@ -1,0 +1,984 @@
+{
+  "response": [
+    107,
+    {
+      "aid": 456239024,
+      "owner_id": 19425224,
+      "artist": "The Avener",
+      "title": "To Let Myself Go (feat. Ane Brun)",
+      "duration": 253,
+      "url": "http:\/\/cs1-32v4.vk-cdn.net\/p16\/2801b17597917b.mp3?extra=zzHmsrL_XXlcL1OUnd1U4snepYCASF2cEYFYjcunONSmtKyXhQyi_f-IPhu28j9zHnDEEX37eHNOhx7SwaA7VLSbCINMJx4Lr1XPzDT46ERhWij3mtCSTcXhG-vT8PCXsPts56ZMrPZa",
+      "lyrics_id": "299158443",
+      "genre": 22
+    },
+    {
+      "aid": 456239023,
+      "owner_id": 19425224,
+      "artist": "nicebeatzprod.",
+      "title": "безопасный секс",
+      "duration": 125,
+      "url": "http:\/\/cs1-44v4.vk-cdn.net\/p1\/cbad32f54d403e.mp3?extra=s6lffAbZ4wHptdPbv652qBjlloDLOwtAF1SP_Daa8uBo6HWDhDEN19d7m8CzykBxCgqedNazBiJbEy7dy7UpFaAyAWOjGG77FGmwIgmerB3SmF87qGnMmPYH3aDgb8yc2tELmPz9xOXB",
+      "lyrics_id": "198125170",
+      "genre": 6
+    },
+    {
+      "aid": 456239022,
+      "owner_id": 19425224,
+      "artist": "ﺝ",
+      "title": "✨",
+      "duration": 195,
+      "url": "http:\/\/cs1-33v4.vk-cdn.net\/p9\/6153dcf5b839d5.mp3?extra=a85hrZ-wpomXlpEhyUMgEvR4C7Efm0KBBlts02tfep64DqgmSuUWu-jhyOrezhhhN4c1DFBgW4Y7IEiUoETyMw-EOz__jK6CEmIeg5rkIb7nwGcRxaFmN0B5W95DN2E1gkAM6g8S5Ne2",
+      "lyrics_id": "269915608"
+    },
+    {
+      "aid": 456239020,
+      "owner_id": 19425224,
+      "artist": "CENTR feat. А-Студио",
+      "title": "Далеко ",
+      "duration": 209,
+      "url": "http:\/\/cs611622.vk.me\/u122807043\/audios\/9277223b41b1.mp3?extra=udpP1fzpCWVdV_YRiqFAqCOH5emLbhvfS09j9enu4nEPqYDVoGTJgV3t8KuLRj3qIYrXXR_D3dDV6mtGYC0RhtuJiaoFpy3RQFkk4gN1mB1RxuZa7763ohX-tlkK70BUiENNZLrR1YaH",
+      "lyrics_id": "317764430",
+      "genre": 18
+    },
+    {
+      "aid": 456239019,
+      "owner_id": 19425224,
+      "artist": "кэвин дэйл",
+      "title": "джордано бруно",
+      "duration": 253,
+      "url": "http:\/\/cs1-45v4.vk-cdn.net\/p19\/770fe12b4a3179.mp3?extra=FczZeT9mcOiJX-kXK7fJeYPIGsWvu5qqljBaEIDBrNEB3nC3cXmWd4OGIba8-BL9sE0aMN7AnJjHmi0e-Of6S3XKJTp9W77XYNsJN8LwjdfRz4bsAcuhXsQdqy9nB4uCI3sBhyhn2ql3",
+      "lyrics_id": "296891106",
+      "genre": 18
+    },
+    {
+      "aid": 456239018,
+      "owner_id": 19425224,
+      "artist": "кэвин дэйл",
+      "title": "спасибо,джек дорси",
+      "duration": 139,
+      "url": "http:\/\/cs611621.vk.me\/u263008401\/audios\/a52b08b32392.mp3?extra=TbMgCRzpZ5OOyQVpvYb6VYuJvVg8jlyard6alfk8cMTqUyv7JhejFycbuOSTDY3ZXPeJ23cjNklqStAFoYcZNdZp8izyQedbxelqSc9PyxgLV9sjssa1WqQ_PYgyf5CmcCGsGoygjE35",
+      "lyrics_id": "296890279",
+      "genre": 18
+    },
+    {
+      "aid": 456239017,
+      "owner_id": 19425224,
+      "artist": "кэвин дэйл",
+      "title": "у каждого героя свои слабости",
+      "duration": 202,
+      "url": "http:\/\/cs1-36v4.vk-cdn.net\/p18\/4b03a78c96b1bd.mp3?extra=cMlqfS3Ss956GF0FzoaP28CpfRUzk1Sg3x7lH1Z0vhGBb8WjKXx0EILyk8LdH3tWUU4i1tNZW89iAeNIa_EvwM-33-M27JMHLYGml01Os-pSspJc6AafUGUrf4TfNlJUd6iRnc_9XckO",
+      "lyrics_id": "194327441",
+      "genre": 18
+    },
+    {
+      "aid": 403420477,
+      "owner_id": 19425224,
+      "artist": "Каспийский груз",
+      "title": "С ней живой (2015)",
+      "duration": 202,
+      "url": "http:\/\/cs1-25v4.vk-cdn.net\/p34\/440ff432a70a75.mp3?extra=kDLwA0WpwWhb4iAleIMwC1UUnY0Elw3AGYVs2j5TKxisYUmOMDszFj10yRX6MneEmxi0CMYGHBBGGAt3hsNvVGNWDqUijEtjLoMI_U4W-8VgIj7xsG6tWn7aoIVB4vB-XOxJqUZTnYmw",
+      "lyrics_id": "277612584",
+      "genre": 18
+    },
+    {
+      "aid": 399207387,
+      "owner_id": 19425224,
+      "artist": "Миша Крупин ft. Гуф",
+      "title": "Яна ",
+      "duration": 265,
+      "url": "http:\/\/cs1-48v4.vk-cdn.net\/p11\/eb3d8ccf7b1a4e.mp3?extra=8iAFsfI1fspAGBhs49BB1qHi9zCwftdiv7SE1GXLa7u71YmyH1XOS_pBMvL2KbKYFrot9BRxlkHJ-xasevCpyvNNyduPTVMipZrIKEcMrRx6cHvPilA4bEudKa9P3qs1BsE79u9YLkF8",
+      "lyrics_id": "195961397",
+      "genre": 1001
+    },
+    {
+      "aid": 391836803,
+      "owner_id": 19425224,
+      "artist": "Axel Thesleff",
+      "title": "Bad Karma ",
+      "duration": 416,
+      "url": "http:\/\/cs1-45v4.vk-cdn.net\/p17\/6693af0873af3d.mp3?extra=xzmv4WffCZAPBabIrdPZdOGBXbvlhxE5IG2Y2-eQtrPGjM8_p-OY4iSg3skwSYW8_w5PG7lH8_X0wJihGskapnxR1RGLsPGMFo-G91MuCzSLZykU7yPXj_yvW13pX_rAbzw7fU-uKIBA",
+      "lyrics_id": "219302384",
+      "genre": 18
+    },
+    {
+      "aid": 390328781,
+      "owner_id": 19425224,
+      "artist": "Каспийский груз ft. Slim (CENTR), Rigos",
+      "title": "18+ [2015]",
+      "duration": 304,
+      "url": "http:\/\/cs611327.vk.me\/u11415641\/audios\/8f456646329e.mp3?extra=bQ0a7QUoMRecnmGaRpGh_J9zZtAg15glXvqUUjzPIhB-urMgneVuanqVuMAiY2eyCYLj4HkDk6fvE5xXxS5Lj73aZzva2KUEahMXmKFNh_LMgPbrL0Hv1yPyRha8f7ghMMics3aYeg0q",
+      "lyrics_id": "228471209",
+      "genre": 3
+    },
+    {
+      "aid": 375625664,
+      "owner_id": 19425224,
+      "artist": "Каста",
+      "title": "Такое чувство",
+      "duration": 231,
+      "url": "http:\/\/cs1-50v4.vk-cdn.net\/p8\/ccca9fe50ffb7f.mp3?extra=M6YCiJnXru52f6NAeAfRe2FDhM1-Bjz7cV7xpN8vWMALDy7tXIDxkNERaBhFFegEQ7kO2G6nt3ERAHOgDVZNJxSRWVuaP---UwUXgHu-564SxRLXcAcJ_RIz7EmP1FeeXoUi3vahIBI2",
+      "lyrics_id": "7167658",
+      "genre": 18
+    },
+    {
+      "aid": 375625641,
+      "owner_id": 19425224,
+      "artist": "Влади (Каста)",
+      "title": "Прощание",
+      "duration": 260,
+      "url": "http:\/\/cs1-51v4.vk-cdn.net\/p16\/6ae5fa80ec702a.mp3?extra=gQdEA8NoY2VD2p-eeiahz9PAa-PfRE_cVfWAdl1JnPCKe0GBdkGzbQokSa8S-kuj9IJbOEzGS1Qs0BE9q__9F6yjmPtqMNl93py-aG_sS1jnYaLrrgm8eW-1e908XWvtJLIG6bTlzFFy",
+      "lyrics_id": "22778824",
+      "genre": 18
+    },
+    {
+      "aid": 401097628,
+      "owner_id": 19425224,
+      "artist": "Каспийский Груз",
+      "title": "Сам Все Знаю ft. Гансэлло [Новый Рэп]",
+      "duration": 268,
+      "url": "http:\/\/cs1-43v4.vk-cdn.net\/p2\/72c20832db1340.mp3?extra=82ys4-UOZwCiZWOZrQFNv36xFMUOmr88A-pTRr9bscFXx61IkTtWqRDxjdoVkf9Lslo5U6Og0VpRN9DHPnb0LoMOHTAZS9QC3sdyqDba1EVR5zx8jKASUUYUQbqgprdr5TTRST7qPpo8",
+      "lyrics_id": "228496616"
+    },
+    {
+      "aid": 370519585,
+      "owner_id": 19425224,
+      "artist": "Alex Clare",
+      "title": "Too Close (To Love You)",
+      "duration": 250,
+      "url": "http:\/\/cs1-16v4.vk-cdn.net\/p8\/022af36f0ca7fb.mp3?extra=vnLYH956nsvbkw8u-HxJx-gh_a05q1_462mscpPfylYwQm92_y7dygIH5DYRmlAons8Nxc539OHRYucreK0yFpG0RnA_sfVmWcLutCnQ1iuPf5WKYEiNYkWMeJLmCb9OBmencWUPrWuq",
+      "lyrics_id": "200496016",
+      "genre": 1001
+    },
+    {
+      "aid": 367699024,
+      "owner_id": 19425224,
+      "artist": "Blasterjaxx &amp; DBSTF",
+      "title": "Beautiful World (Hardwell Exclusive)",
+      "duration": 215,
+      "url": "http:\/\/cs1-42v4.vk-cdn.net\/p13\/b224a7643bd44b.mp3?extra=sn8XCvz7yZFP5dfrAoZScBw3KL94ZCGBy3etdCqvGFnXkRqSIYwBwL3fi1wXBY16i72eONt-C5IvrOfPssifuY1uTHEaeU1yqinx85Iv3ArIwSWYZ7eDqeht_EkW_LW6sgeEqqvaGgLA",
+      "genre": 18
+    },
+    {
+      "aid": 367699019,
+      "owner_id": 19425224,
+      "artist": "Ludwix feat. Katya Slok",
+      "title": "I Still Love You (Mahmut Orhan Remix) [Preview]",
+      "duration": 210,
+      "url": "http:\/\/cs422320.vk.me\/u163758606\/audios\/95bcf8bec669.mp3?extra=9-oZXrvu4HVfqDL91jYgqXbUy57pfgmuJ6gdkZ-AQmELYSIQ6VrfIMI3Ojv_yKZiXau2KM5PVtJLBiYuVjq_FWG8llcXYkhViRwcalOubfCpxVY9RlGn1rm5h9EeUn8L46WfqFCEnVUs",
+      "lyrics_id": "225672756",
+      "genre": 5
+    },
+    {
+      "aid": 367699010,
+      "owner_id": 19425224,
+      "artist": "Jandro",
+      "title": "Будь моим ангелом",
+      "duration": 256,
+      "url": "http:\/\/cs1-48v4.vk-cdn.net\/p3\/1c93a20992cb1b.mp3?extra=NBsYtPvn6AGtsuQiZJ0GW7yzUkpdiKBNjMT9kIqtpoDt27LgLuSUznoKsgJyeVyCFoQ-lUI4xzcsm8tU-fsjh1thhWLATCz-GOcEjFlbGjtD7yuSQcwyO1_5WQZjms3jbrlroxjWr9Ya",
+      "lyrics_id": "248651895",
+      "genre": 1001
+    },
+    {
+      "aid": 367699005,
+      "owner_id": 19425224,
+      "artist": "Эштар",
+      "title": "Ты есть",
+      "duration": 186,
+      "url": "http:\/\/cs1-43v4.vk-cdn.net\/p4\/77297fe56a58c8.mp3?extra=OqtWh17deJQCxL_HDN7A26j-NJ8StE2ta0W2OXMXJzovWa8LBAOSHj91oHVQ2Bca2QvOiVnl-HG-XUwWtjvkOxdZIT1P-Aq_SUE8mWuzCctVM69TZ3nVOZELL4yy2GUzfEOYuZNCWLiV",
+      "lyrics_id": "214289207",
+      "genre": 1001
+    },
+    {
+      "aid": 367698998,
+      "owner_id": 19425224,
+      "artist": "THE HARDKISS feat KAZAKY",
+      "title": "Strange Moves (official)",
+      "duration": 191,
+      "url": "http:\/\/cs1-42v4.vk-cdn.net\/p14\/51deca1a80bb5e.mp3?extra=NvM85ZD5zkcjzcQFvNTsqpJUzFVvq_6e5AUZtcj3eSqQ9q49d9cDaCcpLSjQgLblYSFLVddFb5Ln6NFnzpoUV4WCW-Fh6QBoIQgO3oenvmF_SthomuyYnE15ZiR0WDZzyUD8xSL_mjuS",
+      "genre": 1001
+    },
+    {
+      "aid": 367358912,
+      "owner_id": 19425224,
+      "artist": "Bob Marley",
+      "title": "Aint No Sunshine( there ain't no sunshine when she's gone) ",
+      "duration": 222,
+      "url": "http:\/\/cs4711.vk.me\/u53589025\/audios\/0da49ee5c347.mp3?extra=x8pp6G5ISKoU8ue0Gs55YHuk0E2j8tJ2x5O5YfPxpAXU5ChchT-V-mHWR7YGkk-90Mi9bD27nIA5Vw3em_nP9pKlsvBT0vi0ZuJLlJ6EHNCNSI_aHuL0lGYs6t8oces1wxze4vPBro3F",
+      "lyrics_id": "11734169",
+      "genre": 4
+    },
+    {
+      "aid": 336311489,
+      "owner_id": 19425224,
+      "artist": "ДЭПО &amp; Kolibri &amp; kavabanga &amp; NaCl",
+      "title": "Амфетамин ",
+      "duration": 280,
+      "url": "http:\/\/cs6300.vk.me\/u33775820\/audios\/148a29e423e6.mp3?extra=z8VXVUoIgxU5AevxZ-kjRGcx-nhPjRL2kpRo1xaBCOq77emPQ6iER3EiZLd1AT83qzho2MVMpofRlMxne_CPMtyNwUhIY2PPrP7qNhYjuCF2MS1up2cpQmAN-kXGlVwmAzUIj6UATz2b",
+      "lyrics_id": "65929495",
+      "genre": 18
+    },
+    {
+      "aid": 336299088,
+      "owner_id": 19425224,
+      "artist": "Иезекииль 25-17\/Искра",
+      "title": "Мотыльки",
+      "duration": 222,
+      "url": "http:\/\/cs1-31v4.vk-cdn.net\/p7\/e0f361ceed6943.mp3?extra=LI_rPUqijycSDrcabR1lf3lg5Khm43NuTuhoebMJgRO-46VJQhbtuP72VDnewjgS69k1JQbXEbuuGH7rH5FHtkmQ8NMMXn2-EgmsdlnDTzHoEPqgDBoESPmIuitMP31D9nLoKTsK2cFw",
+      "lyrics_id": "3391405",
+      "genre": 18
+    },
+    {
+      "aid": 326744426,
+      "owner_id": 19425224,
+      "artist": "Eminem feat. Dr. Dre &amp; Skylar Grey",
+      "title": "I Need A Doctor ",
+      "duration": 282,
+      "url": "http:\/\/cs4815.vk.me\/u102991572\/audios\/164a8a273a14.mp3?extra=U0__KbqkNgf9HgxVWqVpvwHGTes2CgKAemF4bxYd3pyGr-k0X6bj9rdwiqnN5mP4mbLcniqmAq9WViwH4KSRI8ktyvIjwF8VZ2Uh0LKh6CUZZN_miiGTck1j-OM3FT5dQaGD-xCB_3Ki",
+      "lyrics_id": "9401204",
+      "genre": 18
+    },
+    {
+      "aid": 326058627,
+      "owner_id": 19425224,
+      "artist": "КатэРа",
+      "title": "На Украине",
+      "duration": 242,
+      "url": "http:\/\/cs1-20v4.vk-cdn.net\/p18\/e017b902be2ad5.mp3?extra=eDManDy9Gp8Y4B6kA9Hrv09Eh-7-4HeqKaTj2av0YWZUuc1HHv8r7pkV42GH0JU1b2miivFkqu4etwJBS3ehKYJjFkoG-ky85y-D7tdFN-WXgE_n8Piot9CmEw6XZZT-UDpLMOolqFMO",
+      "genre": 1001
+    },
+    {
+      "aid": 307299402,
+      "owner_id": 19425224,
+      "artist": "Булат ft. KOC ft. Ниггатив (ТРИАДА)",
+      "title": "Любовь Морковь",
+      "duration": 275,
+      "url": "http:\/\/cs1-27v4.vk-cdn.net\/p4\/9c19c03891ce4e.mp3?extra=OjxhRhBY8UcRVYmJ5eI92hOBpoWPBzb0YWJiNHXZllE2OaKZLGrKOKKk9ph5crwX4rOVPJZZ9OeAZ-gm9BeRwFQmggPxuEFVJkduFmuks4XshVdcdTcy0NZPRZbIiUVDpKlXDgfuEQUS",
+      "genre": 3
+    },
+    {
+      "aid": 326744251,
+      "owner_id": 19425224,
+      "artist": "Eminem",
+      "title": "Mockingbird",
+      "duration": 250,
+      "url": "http:\/\/cs1-42v4.vk-cdn.net\/p7\/011a2af84a5728.mp3?extra=JCxcyQM7avE8AN4-tbqxoh5GR00gZ8ZdmFMevlhKVCmSbgj8OzQJb7cSri4G8Hbu_f43RUj6TZ7sLcaAFBjunuQzKVd83dZoF89tNtoN9svK8k-EyUdNyzMlV52inv0oKleswT5bhmnF",
+      "lyrics_id": "9984",
+      "genre": 18
+    },
+    {
+      "aid": 301893288,
+      "owner_id": 19425224,
+      "artist": "Сергей Наговицин",
+      "title": "До свидания кореша.mp3    (Тебе,Коль,посвящаю...)",
+      "duration": 423,
+      "url": "http:\/\/cs1-37v4.vk-cdn.net\/p14\/94a9e9c3522f19.mp3?extra=pdVAqoQzzN-TNvMJOImgG69_DbQ8fnO8wU1wjUzc4R46oenYdpY_y9q8YElzSfMccr4OyjSD08XTErECBOkkKyjYBSIoiKmu5DwxouZlce2qOSc4zrOsvzPxyE-Zw9lOOuKg0GrZwpDa",
+      "lyrics_id": "7435848",
+      "genre": 18
+    },
+    {
+      "aid": 301892122,
+      "owner_id": 19425224,
+      "artist": "Сергей Наговицын",
+      "title": "На свиданку",
+      "duration": 435,
+      "url": "http:\/\/cs1702.vk.me\/u2875087\/audios\/777f41b3d8a2.mp3?extra=h70_glz6z2-HNVY00XN2XtwlgB_SOLfKT7UI7lnixrDD10szsYP7E58el6on31YKotYcleH7NaUjNWzln3I9A82ZhHjO5hGVeOh1hv8D0aBp8yFgflxC7ez_eLNaxr3SRJ-JOhIwFoD7",
+      "lyrics_id": "14910563",
+      "genre": 18
+    },
+    {
+      "aid": 286329110,
+      "owner_id": 19425224,
+      "artist": "Тати",
+      "title": "Шар (ft. Смоки Мо и Баста) ",
+      "duration": 320,
+      "url": "http:\/\/cs1-32v4.vk-cdn.net\/p5\/1715ae9de94178.mp3?extra=hPxuCUX7oBYGJgdSAwdcwdTTVHI_wtAjq4txjX39g0BTW_DSccFeZOmPLNSNK4zZ148QZMZXR9WrmDNdjOkayzVK6KY1R_bJISPA_l46wVX3HqCl_Faevg9NIRLo-w6GKCtOs5GyUy89",
+      "lyrics_id": "156882008",
+      "genre": 1001
+    },
+    {
+      "aid": 277170466,
+      "owner_id": 19425224,
+      "artist": "Квартал 95",
+      "title": "Не отделяются любя (Крыму)",
+      "duration": 189,
+      "url": "http:\/\/cs1-32v4.vk-cdn.net\/p7\/55e2490bb76cf6.mp3?extra=gGKaskYZd6b6PUX7e-hcWULu6utZs4bXS8-3v1vUFxnZq8Wh-qxCzelm2EJAITu57qlSuptUNb8ttxO30DhPiJzhYy1sNBxa6voSGj__yJYUQeTzDuzrsJ-acWs9XftHiZ6XKR4QhveM",
+      "genre": 18
+    },
+    {
+      "aid": 275376814,
+      "owner_id": 19425224,
+      "artist": "Syberian Beast meets Mr.Moore",
+      "title": "Wien",
+      "duration": 217,
+      "url": "http:\/\/cs1-48v4.vk-cdn.net\/p3\/9b24be27c02c75.mp3?extra=gq9Rh3gtRRk6aiRb1QLIldrYzvetxouZSUnmCosN03318vNlkVzYuY26UJDDfhuO-BaHQfQvNeKAiqQBsngcWZlxfyITZYWuhIEkK8W84Jg-dVJNMJrcnbsRL8yNBj3d8Fh2spjpl4mK",
+      "lyrics_id": "157316209",
+      "genre": 8
+    },
+    {
+      "aid": 275334300,
+      "owner_id": 19425224,
+      "artist": "Копюшон",
+      "title": "Эмфиземы",
+      "duration": 214,
+      "url": "http:\/\/cs1-48v4.vk-cdn.net\/p3\/fa728c6da7d4f9.mp3?extra=zhAcLbYN-IN2iVvoH44BAIGYDTRsSHuG4u2C0a4ClNhqkj7Bak3Ev023i-FcpZkWzkJI3divRH_GMdy-SuQUBwoLi1OVIJ5Cgfn9gcroNZTSm9K7vJ8N2ncU9SjCxMrtpVIldAiY9cV3",
+      "lyrics_id": "25482001",
+      "genre": 18
+    },
+    {
+      "aid": 268961218,
+      "owner_id": 19425224,
+      "artist": "Копюшон",
+      "title": "Зефир",
+      "duration": 172,
+      "url": "http:\/\/cs1-31v4.vk-cdn.net\/p12\/b8454411396de5.mp3?extra=Aa36Wmy_0SnO8NmOBumDsxqUhgSd-mQ9edOMY-NJNgHsnhqyRqF9Cb6eeT3MBfk7fQpEQNm5p1iZwOWxPRMK0wHjqxvB5AdYrJ2k3jbmuqjp34-O8CdnLmnhr8B_7WxdyL1QnCpzLuKh",
+      "lyrics_id": "26085685",
+      "genre": 18
+    },
+    {
+      "aid": 268961208,
+      "owner_id": 19425224,
+      "artist": "08.Копюшон",
+      "title": "Я Не Хочу Спать",
+      "duration": 152,
+      "url": "http:\/\/cs1-33v4.vk-cdn.net\/p8\/0f41a7fed8b91d.mp3?extra=BweGk2SsCkvyqAxSJ8sjf5bGlrF0aqZsrdJ9j5EStUwnmQcTtlK0pWKHuIgyE-wJwpbKmFHpa2NjMt5wqf151NAlKd8qC3eLBmUTvS4N2MlRp78mI4b7A28JwSremwaVn3tKzD6APPZu",
+      "genre": 18
+    },
+    {
+      "aid": 223045260,
+      "owner_id": 19425224,
+      "artist": "Луперкаль и Вадяра Блюз",
+      "title": "05. 200 (при уч. Нигатив)",
+      "duration": 183,
+      "url": "http:\/\/cs1-36v4.vk-cdn.net\/p23\/94e51c5c322e78.mp3?extra=iiWvZpOZcLJlqrB-bFd438_bK8yXx3VLFSk0RW-KNjQ-YglV8wUAMzz04HXCzxrQaC9OyK-7_4Xw5bkAz5UNGcclNglJgthsV6KLNesnJ1pV1MTyDy2saHxG5aAWkNKdhnriPfWmsJGt",
+      "lyrics_id": "48794573",
+      "genre": 18
+    },
+    {
+      "aid": 222670234,
+      "owner_id": 19425224,
+      "artist": "капюшон",
+      "title": "гвозди",
+      "duration": 202,
+      "url": "http:\/\/cs1-49v4.vk-cdn.net\/p18\/d0010e539bd6c6.mp3?extra=TzkQqvFsvAAdvxg-AEvTFM1IK3acjl3E-jSkiCEUV6K_AyQXGRr_eetWC5cgiKkGs-959wyWEHEjfJoaEZBWgQsY3O7UwQY7NLdgs8xzjN6eP0KbUMhMtFNGKJmk9YP9lVcSBsGTtupS",
+      "lyrics_id": "41209631",
+      "genre": 18
+    },
+    {
+      "aid": 217387683,
+      "owner_id": 19425224,
+      "artist": "Луперкаль и Вадяра Блюз",
+      "title": "Волк",
+      "duration": 211,
+      "url": "http:\/\/cs6092.vk.me\/u159589658\/audios\/a236dd5ebd86.mp3?extra=6FQyaBNjhvL7l7iQcsL7C37EEHDjsf0-42HKDzmx5MziBAL_cw9Etgw4JqIaD_YfG4Hn-GAdZ1LP3b63Rfr0CBrqwUBhDnG1zNJ12hd9cQJax5FfjJiBGY_x8oplzQ3QMRiWpJQBBLKS",
+      "lyrics_id": "48779596",
+      "genre": 18
+    },
+    {
+      "aid": 217210357,
+      "owner_id": 19425224,
+      "artist": "ГАМОРА, ATSEL'RJ &amp; DOODA",
+      "title": "Куйзнает (2012)",
+      "duration": 178,
+      "url": "http:\/\/cs5829.vk.me\/u47442628\/audios\/ebb4a75d9fbb.mp3?extra=zUrb0NaLJLZ7XGbPHxCrfxPMeI5hr37aGOI2F8TiA8rrWMULfH-otqY5He173qHQNMlmz0fehP0fprcXiaTnGyeQVts-lspl0Tifxnr6nNOEVVTEsLyq-mNjAx1vCWLAKZmb1JsnjTEr",
+      "lyrics_id": "23647173",
+      "genre": 18
+    },
+    {
+      "aid": 217210067,
+      "owner_id": 19425224,
+      "artist": "Кажэ Обойма",
+      "title": "Ангел",
+      "duration": 202,
+      "url": "http:\/\/cs1-34v4.vk-cdn.net\/p22\/a0a96c881e7b14.mp3?extra=lXJ4AjmIclhOzncKYYoZLDXLRyReqLWDHKQRT1X1foYapeT4KAVj5QlnSN337Xpz9BjSt6S5gvNniWZV0H7os3itFXbcKAVm4N8bZJ7Da2AqrujVHCrMwNcMulMExJdEkHtxZuAVbgPC",
+      "lyrics_id": "24432904",
+      "genre": 3
+    },
+    {
+      "aid": 214026116,
+      "owner_id": 19425224,
+      "artist": "Баста",
+      "title": "14 Чк (Чистый кайф) \"Баста 4\" (2013)",
+      "duration": 365,
+      "url": "http:\/\/cs1-48v4.vk-cdn.net\/p21\/ecab78fab3e439.mp3?extra=xrVPzGYlaDvRVFw7AhQiZ0t3SdbTJ08v7G35JNP6_VrSgfln8LAB81PpB-1Iccg04OVSXnLD16Ix1_c3TDua33POUvBpnaZ6KTFXyiCrgkf7nHYfajUR1rXEraD9ExPO7dSlMc1Y_CVX",
+      "lyrics_id": "81741756",
+      "genre": 18
+    },
+    {
+      "aid": 214026106,
+      "owner_id": 19425224,
+      "artist": "Баста",
+      "title": "05 Вселенная (feat. Tati) \"Баста 4\" (2013)",
+      "duration": 211,
+      "url": "http:\/\/cs1-36v4.vk-cdn.net\/p21\/025b85c6e6a075.mp3?extra=8CmXwTg7SrEmB0VM-9wZa4_0YwGpe3k3WOjoWCIFmj3Pax4uaCFti0qigx5Cj3U4Tfdy1rivOm-XA5u-yeoVn5rP5hnYfq3D3vfRnoXDv_-uKVVOwO4HCjvpT6XELUEHRJ1g-HOpG93C",
+      "lyrics_id": "81726861",
+      "genre": 18
+    },
+    {
+      "aid": 214026081,
+      "owner_id": 19425224,
+      "artist": "Баста",
+      "title": "16 Райские Яблоки \"Баста 4\" (2013)",
+      "duration": 242,
+      "url": "http:\/\/cs1-31v4.vk-cdn.net\/p6\/2026de90253634.mp3?extra=oMMCjwlhc47m_7TqepJsobIKV5muHDyTtfZfFnz1jc1Gs-S2wLkt8r8s6_umcYoYYA_GKd9BEpSTCED-r6nM2UD2csDFchSRfUOemxAwoplBb_-FqAn4AH5dTe5zk1Wd4bVo3iPyZniC",
+      "lyrics_id": "81730510",
+      "genre": 18
+    },
+    {
+      "aid": 214026046,
+      "owner_id": 19425224,
+      "artist": "Баста",
+      "title": "17 Это Всё (feat. Адели) \"Баста 4\" (2013)",
+      "duration": 328,
+      "url": "http:\/\/cs1-50v4.vk-cdn.net\/p2\/c350b6ebd0ac22.mp3?extra=vaKN3KMbMBsZkIdDWw7X5S2bxk0aors8bjuJ0teErl5pxbOx0V-rH5GpmrnnXMpjS_YlrO8QhpOePG5dpCzOkfYtoi77IPJQ0sTwTcLPckfUFGSxE-CYjZcknuZdhqtZ8fntQRQUewcX",
+      "lyrics_id": "81730390",
+      "genre": 18
+    },
+    {
+      "aid": 214025995,
+      "owner_id": 19425224,
+      "artist": "♡♡ ⎷⎛ Эльвира Т.",
+      "title": "Ты же смог меня приручить...всегда буду за тобой ходить...ты же смог меня разбудить и сразу же усыпить....",
+      "duration": 182,
+      "url": "http:\/\/cs1-51v4.vk-cdn.net\/p19\/66c240b7912b33.mp3?extra=sC-vuxfvZXgrJfdNgcWmGArQipLXeR6i8ENT6Grb5scJJKPUOzQUvsUTh9XA3dXXWsQIi7-NieG93KJeMH0ORdTTeOIccb-orhtIjD5OR0LlNbs18bQXJ7SAXhvC6VPTlOR9TAMQwZGA",
+      "lyrics_id": "10151199",
+      "genre": 18
+    },
+    {
+      "aid": 108156243,
+      "owner_id": 19425224,
+      "artist": "Гуф,Ногано,АК",
+      "title": " Тем кто с нами ",
+      "duration": 453,
+      "url": "http:\/\/cs1-32v4.vk-cdn.net\/p6\/6f8119ebe3d6fe.mp3?extra=SuEVNag-TpbnwUwPSkh_InA0I0vkArxpTMI0zIojcSQVVPvoUWEdNMxJCZuQpEZzaLqukclOtHQDpRiwU7eJaYexucshe0nDHkm17TyFB-6_vaX3HknQ1DFNGXD7QaGIo3sx_Eymv2VR",
+      "genre": 18
+    },
+    {
+      "aid": 201884607,
+      "owner_id": 19425224,
+      "artist": "Алексей Сулима и Elvira",
+      "title": "А у неё печальные глаза...",
+      "duration": 433,
+      "url": "http:\/\/cs1-36v4.vk-cdn.net\/p9\/ec779f13f86dea.mp3?extra=kqy01K3J84Xb5IEkLiA4cvTlfWQZdeS2DvaVYhrNg35zznxcgtoLbfmdP9-eZ4cu6KaPQQxHKOKo0ZE3vhmAVdy6H_G80uC2dG0gWDFp3tJCIp3rhbo8RmzOidxzllR0y-5M6l0Jdg4a",
+      "lyrics_id": "76234392",
+      "genre": 18
+    },
+    {
+      "aid": 199226993,
+      "owner_id": 19425224,
+      "artist": "Баста ft. Тати",
+      "title": "Моя Вселенная (#Баста4)",
+      "duration": 211,
+      "url": "http:\/\/cs1-51v4.vk-cdn.net\/p3\/7e78a3cdafddeb.mp3?extra=N5WbYLdKRwudss3id95rLajXf-hz42OayfQqzz2DoZByopCPcjiLyxGDbC9qGQ3eJwLNGE2O3ZTLS4T4G2z4skDLAEPssToLf-1_cesjKXa-Yy-5sxadvB7FS8Qp1MpXNOiDh3RPlSw7",
+      "lyrics_id": "39955003",
+      "genre": 18
+    },
+    {
+      "aid": 185550282,
+      "owner_id": 19425224,
+      "artist": "Баста  &amp;  Бумбокс",
+      "title": "Здесь даже солнца не видно",
+      "duration": 300,
+      "url": "http:\/\/cs1-50v4.vk-cdn.net\/p14\/99841a875d9917.mp3?extra=8WwONoYru5QWIKr2ufpj5wkThPy7UUK0DKP8x89RpvkVD6wEI-cTBQiYNMzTL4tToUc4a6kSaSc1khiFBGmYVpY24HcAVBFRDDqvQaHmkI0JcncoxlzlGXHsv5-NRppp0V6PG7i-WIYn",
+      "lyrics_id": "4622441",
+      "genre": 18
+    },
+    {
+      "aid": 185550250,
+      "owner_id": 19425224,
+      "artist": "Баста",
+      "title": "плановая.... плановая... моя девочка родная..добрая и ласковая...",
+      "duration": 243,
+      "url": "http:\/\/cs1-51v4.vk-cdn.net\/p1\/aa616b44cbb4bc.mp3?extra=4Vl_n2olzUfJpNz25Iare5bc3qfrVj16tZkH-Myp21I87eh6rM3N4fOmE0-EhKhGxbDX9oQrhNKwURGzmW4izwNKL5x2OFMQR5Z6G27jQSg8-VYZdeTkj6qh0bel933RmKFe_xDJHH32",
+      "lyrics_id": "8890751",
+      "genre": 18
+    },
+    {
+      "aid": 150395079,
+      "owner_id": 19425224,
+      "artist": "Михаил Круг",
+      "title": "Золотые купала",
+      "duration": 312,
+      "url": "http:\/\/cs1-36v4.vk-cdn.net\/p13\/32ecfab8f91095.mp3?extra=UsJUwlZffFQG2lSdj26ghRS3NvztOSgOb2mGo6flvaQPGSOTkCfFIOA94vgk4hvDAWigUlVoxJw-bQyCWlksHNhDknUXlpyrkgMuZmd6897uCjOc4lYX5NW1KmiPQGyk63TJk4yopdPJ",
+      "lyrics_id": "6458794",
+      "genre": 18
+    },
+    {
+      "aid": 142645875,
+      "owner_id": 19425224,
+      "artist": "Стас Михайлов",
+      "title": "Есенину (Не держи меня) (2011)",
+      "duration": 217,
+      "url": "http:\/\/cs1-36v4.vk-cdn.net\/p12\/f08592d4495b43.mp3?extra=jYctH0kr_i0r2ktghCjrfJe-o5l4KM407mUh6dEyDwpv1sUlOM9BLWzGLb2eepFiYtIjxjlH1lSYwJpBF4XLf7brxxTHfnzPsj_ugcQ7vbBSf4Pty6LsChABiYTplT-7c4cPYdUfVmFZ",
+      "lyrics_id": "11647729",
+      "genre": 18
+    },
+    {
+      "aid": 108267261,
+      "owner_id": 19425224,
+      "artist": "17. Смоки МО ツ",
+      "title": "Красная Стрела (Время Тигра 2011)",
+      "duration": 328,
+      "url": "http:\/\/cs4665.vk.me\/u88105965\/audios\/1ff7a82e1709.mp3?extra=Z6vDJQyp7_6RFx7AI3IGHCD0BQRZJM_EsDkAKgH9OqKVSUyXJtwaT5pPCa7a7xOg5V8ByXaGFJ5NK9_AIJUie10ixPsTIF1MDqEIk8Kxy702cYuj7MJSRhcGfxKGv8h_L2e9CJIlq4Hm",
+      "genre": 18
+    },
+    {
+      "aid": 108267105,
+      "owner_id": 19425224,
+      "artist": "18. Смоки МО ツ",
+      "title": "Раз и Навсегда (Время Тигра 2011)",
+      "duration": 227,
+      "url": "http:\/\/cs1-35v4.vk-cdn.net\/p18\/bc7dee324894db.mp3?extra=wea8OvGSUcS94SCM2iwT3cPRpe1OrWFLbv95-g9ND_IA07yqciR1AZqRvPNQwUstX3FZmURFa88Q6d-CVBt3JbdolTKjwM9xFA4NH4ys-RyvYmFLpMinipgrgmqOClrxWypVJI_P3ZnK",
+      "lyrics_id": "10840319",
+      "genre": 18
+    },
+    {
+      "aid": 108266885,
+      "owner_id": 19425224,
+      "artist": "Тати",
+      "title": "Роли (Слезы высохли давно) +текст",
+      "duration": 237,
+      "url": "http:\/\/cs4890.vk.me\/u8010259\/audios\/addaa1718244.mp3?extra=nKwJAcY9_O7SFXBx_FhyiyPJrOVvEqzL5BFFT16HS4GyZIfBunNSbv4VcZRKHTYw1fnh52CoAR_X6y6z_bQLRKqtPwyfkj0lwH0mSt9Viyk2jI4jMsivkC1ibUaVdvKRv0ZA7B3bxQV-",
+      "lyrics_id": "10871994",
+      "genre": 18
+    },
+    {
+      "aid": 108073890,
+      "owner_id": 19425224,
+      "artist": "Бумбокс Feat 3XL Pro ",
+      "title": "Ресницами, касаясь неба, плакала . . .",
+      "duration": 281,
+      "url": "http:\/\/cs1-34v4.vk-cdn.net\/p19\/ddc89314c63048.mp3?extra=ZN5TA8ED6NYTFf_467BxzVmpvb6eQSDfc5j0q-RX-NNjNKZ6uXzU4kuZ7TkvUNy_gFp0BB9UCwjSOOEZGfPr1kzKP2SS_9SIdZxjk86dbv9AAd5V7_uwxjjl_Z1bWPWWYSWI1tqohhpU"
+    },
+    {
+      "aid": 100581729,
+      "owner_id": 19425224,
+      "artist": "Баста",
+      "title": "Девочка-суицид",
+      "duration": 178,
+      "url": "http:\/\/cs4513.vk.me\/u38759984\/audios\/796b59a0e3eb.mp3?extra=lNtNC_VcAnAEpYoWY797M-FWuvXjPUtv2EzYisuEIqogsFiYhdisuvAotPokvDs8pgYrmKYcw6jvSdek7uPi7nfTCYmjwqnnE05Iw-B-RK9HoJ8Wc72kIVQ5PCy_ap_W5jl4ssVVXNas",
+      "genre": 3
+    },
+    {
+      "aid": 99789479,
+      "owner_id": 19425224,
+      "artist": "Не буди спящих",
+      "title": "Слёзы солнца",
+      "duration": 180,
+      "url": "http:\/\/cs1-30v4.vk-cdn.net\/p2\/c9124657327ac2.mp3?extra=fFiZSXYyeRY3H-e7-0xKFOBtqJaVWO4CPdwstWyv5PxEmz_hErFDC6GkD0J9DhkQcP06HH-oYNVYYsk0JYlcgpvGRHofMTHrEwdwNVdIx-ODPIqqVkes4mc5Cz_4J2Ou6wXK3B4xTkE",
+      "genre": 18
+    },
+    {
+      "aid": 99789467,
+      "owner_id": 19425224,
+      "artist": "17. Не будите спящих",
+      "title": "Терминатор",
+      "duration": 240,
+      "url": "http:\/\/cs4699.vk.me\/u68537587\/audios\/4940aa4263e0.mp3?extra=jKHm5VgAK1MaiThmwKroGSLV88dqgYqfaa8_nJZm5OseIfvwCa6Netp1s-7LDPcrAWeutKX7A0_XzrfC0U-g7YsuIw_6QM9BUuKMB413-TA-6XIN2sR2yONlguK77bTIntiSaggRkXA",
+      "genre": 18
+    },
+    {
+      "aid": 99789462,
+      "owner_id": 19425224,
+      "artist": "Не Будите Спящих",
+      "title": "Мент",
+      "duration": 257,
+      "url": "http:\/\/cs1-33v4.vk-cdn.net\/p18\/b004ef5165d294.mp3?extra=wgYpindWGJmB4zichAoev9ZIeWmyEyme23JkKkxVlCpMS945wlB10YDf-_0DqPElrct8WHgzTI3okYnDNxB4CaEXwGAGQYaAtwBTpMcioAt9gzQdOb1bHI28lTQRyd6rxZK4M-fg9Zw",
+      "genre": 18
+    },
+    {
+      "aid": 99789449,
+      "owner_id": 19425224,
+      "artist": "Не будите спящих",
+      "title": "Видишь черно белые стоят оряды",
+      "duration": 262,
+      "url": "http:\/\/cs1-19v4.vk-cdn.net\/p9\/fcaa54b80ea76c.mp3?extra=9RLL-9UcX4z8LYiM-M7LwHAf3a3nk5ZQk-Ucw_woJIQg26C_VATpI1rjo7twSTx7kjtvwCGmkwcEbzH08VpVnSyyPyyI9IqyWdoX3U5K_XtAF-LDiKB-kCJQtadfi01uUPFT6qagcag",
+      "genre": 18
+    },
+    {
+      "aid": 99789438,
+      "owner_id": 19425224,
+      "artist": "●•●• Не Будите Спящих ●•●•",
+      "title": "Мальчики девочки нюхают кокаин...",
+      "duration": 226,
+      "url": "http:\/\/cs4766.vk.me\/u18674745\/audios\/bbdc89e8fae9.mp3?extra=0HELIV4KUwEPt8E0NfIW3n3VXipEq06gM05vUNDVbrLVh69dmA1sJP4AaCNzOFk1xYJnLLgISjhx9774Npj6OzxOPBgdNHhAuExDrpMSwPcA2Xp3KGK5c8DRBEgbJ3-tO2jxmt2PZNs",
+      "lyrics_id": "5976823",
+      "genre": 18
+    },
+    {
+      "aid": 99789419,
+      "owner_id": 19425224,
+      "artist": "Неизвестен",
+      "title": "не будите спящих ментов",
+      "duration": 242,
+      "url": "http:\/\/cs4660.vk.me\/u26779473\/audios\/e05bbbc60de3.mp3?extra=aXfLc4Oj-AcRf_9_yeQhGXef9ECAfwOmHfUTqsh8-HwrGz-qjPDrXvl9vlpV5wxx20PaTv4eVxC88-WA84g0CTGm4HxBQRvnxWvBGuasmbIk-bZBDdJlg-Q76dqg9-u9T1QhC6UgDzw",
+      "genre": 18
+    },
+    {
+      "aid": 98570608,
+      "owner_id": 19425224,
+      "artist": "Горячий Шоколад",
+      "title": "Я буду целовать твои руки,Я буду целовать твои губы.Всё,что есть у меня - это ТЫ.Я буду целовать твое тело,И делать ВСЁ,что раньше не смела.Все,что есть у меня - это ТЫ.Без ума от счастья и боли.Без ума от жизни с тобою.Без ума от мысли,что я люблю ТЕБЯ",
+      "duration": 227,
+      "url": "http:\/\/cs5118.vk.me\/u17325645\/audios\/7c49d3ce1db4.mp3?extra=38uobfngvEhyV4WNUPVm5DYlmyAXfKSLyPNOxjFNfMPb9yRnvnNvzrbLDKK2t66MY5OuubnuPwoxPbtSntoODtbya7mnwunQ5mp8wDNH_oMUkTlvX9dJ1z_zY0I1PN884b3_H-NbExI",
+      "genre": 18
+    },
+    {
+      "aid": 93175802,
+      "owner_id": 19425224,
+      "artist": "Крек",
+      "title": "Мотивы",
+      "duration": 103,
+      "url": "http:\/\/cs4587.vk.me\/u55315924\/audios\/27708b361a31.mp3?extra=q-jnMoJkvBUi49-G7-kqXgzHYISq0B2qgG8rgiGo6_DtrTp8_NLW1XRlXMSwzira1RvcXcAcZHpBBuFo7eMf47WGZW0cJW0lgybuNhcpRJ_QgIZ_JOTXNgOIq5UEPSFztJe-XcKrhx4",
+      "genre": 18
+    },
+    {
+      "aid": 91682657,
+      "owner_id": 19425224,
+      "artist": "Непара",
+      "title": "Где ты была",
+      "duration": 230,
+      "url": "http:\/\/cs1-42v4.vk-cdn.net\/p19\/9dfc63e078e353.mp3?extra=3OV1wHX60k1qktjiN1jsr4X4x3eJ0Kh4lUcr0UHn9R6vBA6rNSeL_g_T_ITYmQGy7mzC3lgxr7FGeJIPC31A75_0OI5_hyN__gVPZs0nmDZ7Mzx-m_eyX6dcKoOGLcnEG0Hp4n0sO9c",
+      "genre": 2
+    },
+    {
+      "aid": 82776935,
+      "owner_id": 19425224,
+      "artist": " Guf feat D.L.S.",
+      "title": "Куда ведёт жизнь [2010]",
+      "duration": 316,
+      "url": "http:\/\/cs1-49v4.vk-cdn.net\/p22\/7d1c16b979ea56.mp3?extra=xQ2o-QMZKBYj6rh8e7MGBZMoytXKwFsIfZ8hY7R2r_-CIUf3b524J3XYVNASm6ZsT8WlxrVu9VAKGeybKGdwkJGNCtGfBPVdwdS9QwlFmyzW7Zy88Fwh9nUxvs0nn6oHoSHuv6Ejj2U",
+      "genre": 3
+    },
+    {
+      "aid": 81863591,
+      "owner_id": 19425224,
+      "artist": "Амстердам",
+      "title": "А после, мы напьёмся текилы, лайм и улетай",
+      "duration": 255,
+      "url": "http:\/\/cs1-31v4.vk-cdn.net\/p7\/d8754ce613a474.mp3?extra=KVSGQhpXlzpMHM35ZXTRRJlKm3blu1h5m6qGEMf15LSGNTDak6HqQ-e6u3WReueqnTnMGP2bZtn8TlZL_L8JFQ0-VVAYhklmJBW75kswJ_nfp4ZlaFwjjU6rng1_w9lwa2HhtQO2wWA",
+      "genre": 18
+    },
+    {
+      "aid": 81863425,
+      "owner_id": 19425224,
+      "artist": "Марсель",
+      "title": "Туда где",
+      "duration": 270,
+      "url": "http:\/\/cs1-20v4.vk-cdn.net\/p1\/2505e1171ffe33.mp3?extra=6ARxDNY5EjG9ko8TfQ95QRdmowCcYZ885voOolnU5Jn5gLcB-xPUNnoWm_EgvH2ZhCNvPOWnCCRPwFn5_VZj1T6Xnuvx0FUckQB2ywGldTZLjGKitfdbyu0fZq3B5NBtSCen8g3prdY",
+      "genre": 2
+    },
+    {
+      "aid": 77616170,
+      "owner_id": 19425224,
+      "artist": "Баста Ft. Бумбокс",
+      "title": "Здесь Солнца Не Видно",
+      "duration": 300,
+      "url": "http:\/\/cs1-43v4.vk-cdn.net\/p7\/604a3f1fcf165d.mp3?extra=V7AyiSNghXafC6SdQC99sQOsB5M7NX1rvFAoIxHeiPkJdHxK3qEehiZ8f0Vj57A5L8SI2xRoJVmg2hQOKmELJH5EjmfXXdy9tIw_fFKenPNMUL3XaeTsh1xaRmazygMKCNNMeizoCFQ",
+      "genre": 18
+    },
+    {
+      "aid": 74447996,
+      "owner_id": 19425224,
+      "artist": "М.Шуфутинский",
+      "title": "3-е сентября",
+      "duration": 347,
+      "url": "http:\/\/cs1-18v4.vk-cdn.net\/p19\/58745c0c207e2f.mp3?extra=VULK-ndgd862OVXJfOPoJBU_ibWPehm6cMhhzEgimw-hHZVyLT2xtHHJPBvoTXSAwJFiRYheYOdEwC2K6Y5hLTPBm-CfqPnONhApNIe_Z2H-Fm0KJssm_k_PLl2hrNcIPjPc7ndPA34",
+      "genre": 18
+    },
+    {
+      "aid": 74135948,
+      "owner_id": 19425224,
+      "artist": "Guf &amp; D.L.S.",
+      "title": "ну сколько мы не виделись года 2 наверное.а я как чувствовал тогда,был весь день на нервах.знакомое имя и внизу надпись онлайн.типа:привет!как дела?типа добавить в друзья... ",
+      "duration": 192,
+      "url": "http:\/\/cs1-32v4.vk-cdn.net\/p3\/0b60d8a83d9dae.mp3?extra=-KgPBH1Ojgp7Is1NDe4ueJUOd1yuWHKg68X1uEx9tMLl5Gw2M4zIPMmt6ib3qTG5Rhpmbqidvd4Wn89XbG-qMVjrjeAdv7JZxL3cCfOYIIG0BUQ6zNtlLx30hPP0zuTqk8GmFQ1ZHiU",
+      "genre": 18
+    },
+    {
+      "aid": 73937846,
+      "owner_id": 19425224,
+      "artist": "Светлана Лобода",
+      "title": "Жить Легко",
+      "duration": 238,
+      "url": "http:\/\/cs1-22v4.vk-cdn.net\/p21\/7781396a901114.mp3?extra=XMW4aQRP_lR0cyiLKTtV1dbXxJCn5S00qq0VbI9t98_Hp13w8aR8-_ny_US09mhiHFMlE88D70M-A9mUNLrKC3fRhYSe85N1efvxlN-u3ZsNru9nxFLIHoimA33Txvjl14wc5oTUyzE",
+      "genre": 2
+    },
+    {
+      "aid": 73794664,
+      "owner_id": 19425224,
+      "artist": "Наркоманы ХИРЭ",
+      "title": "Hit of the year (2003 record)",
+      "duration": 290,
+      "url": "http:\/\/cs4720.vk.me\/u25017329\/audios\/bc8506d2ce42.mp3?extra=4L9Kh3trl2r6MwRZg1rHF1qZa4JzjHKR32L6St6omcuE-uXsySkYPjjwZ-9xIqRAJrmWYcS2ewjqM7S7Al8PX3uY4FjhW95h9FAmt481SfQi61519xjR3nOMe22UaTn6KiLcthOULgc",
+      "genre": 18
+    },
+    {
+      "aid": 73461266,
+      "owner_id": 19425224,
+      "artist": "•Russian Club's for musiclub.ru",
+      "title": "Virus ' Попрошу тебя (DJ Solovey nuclear electro mix 2008)",
+      "duration": 243,
+      "url": "http:\/\/cs1-19v4.vk-cdn.net\/p17\/9b47e4155639fd.mp3?extra=lx8nSsFKFwxQtun0vdg7ywAnsE0b7yljm-nun5n0tgq-koX6z9bAUiqVXUmUKx9-9_l5j8iiTPZHDfI7hAxedh3nMbBepOt5cP-o2J3MOcQunSDf2cMc9T41Whfu89ffsefrpDIqBVI",
+      "genre": 18
+    },
+    {
+      "aid": 73388116,
+      "owner_id": 19425224,
+      "artist": "●•●•НаГГано",
+      "title": "На Акардионе●•●•",
+      "duration": 215,
+      "url": "http:\/\/cs1-32v4.vk-cdn.net\/p7\/99b9f4405dc82f.mp3?extra=IQ1RoOSoYImvNv42IXZv8DhdU2jjHV68sj-c3JRuqAjU9_C_x3M48lV9sWLXbwW4M_iL1V0pCt1zjn9goTMdTO-h1SrMXzvueROi4tmxDaMMb_Wq0AEM6Kvpvqi-aooWvObllHxemd4",
+      "genre": 18
+    },
+    {
+      "aid": 73385915,
+      "owner_id": 19425224,
+      "artist": "•Russian Club's for musiclub.ru",
+      "title": "Virus ' Попрошу тебя (DJ Solovey nuclear electro mix 2008)",
+      "duration": 243,
+      "url": "http:\/\/cs1-19v4.vk-cdn.net\/p17\/9b47e4155639fd.mp3?extra=lx8nSsFKFwxXuO3_uts7ywAnsE0b7yljm-nun5n0tgq-koX6z9bAUiqVXUmUKx9-9_l5j8iiTPZHDfI7hAxedh3nMbBepOt5cP-o2J3MOcQunSDf2cMc9T41Whe-oNDc5bPs9TElUgY",
+      "genre": 18
+    },
+    {
+      "aid": 73317017,
+      "owner_id": 19425224,
+      "artist": "yarabi",
+      "title": "i amar",
+      "duration": 268,
+      "url": "http:\/\/cs1-15v4.vk-cdn.net\/p27\/6f441dac445b0b.mp3?extra=Dy03VhMwo-8NNpBA-HCJxZV3s7dEw3-mqdX0NyzxrW1yBVd8dc4pW7VPyA9WLi9WASIN2euddDyGMvKsc9M-F2J26pZtj-XoFbLjhVaAJunvGAUgBFAUf0EK8VNjGDkr4yBXG4cOvwA",
+      "genre": 18
+    },
+    {
+      "aid": 73231728,
+      "owner_id": 19425224,
+      "artist": "Dj Piligrim",
+      "title": "Да я смс тебе уже не пишу...( Club extend )",
+      "duration": 269,
+      "url": "http:\/\/cs1-29v4.vk-cdn.net\/p35\/46e316851d242c.mp3?extra=ldeak5Krxvgxrq-sNf5CR3DaXbPH3QXy2srWCVYhPd4alLATINfRsPisihSeW9PbM5uPuVwaNIGOdtHgIdVPtXAEMXvrhjFAt-cGmKI1z_ZqRlG27HeNeCCSw7vaHwKWo5ZT36sTgh8",
+      "genre": 2
+    },
+    {
+      "aid": 72256610,
+      "owner_id": 19425224,
+      "artist": "Krec ",
+      "title": " Я для тебя Only",
+      "duration": 211,
+      "url": "http:\/\/cs4710.vk.me\/u15291445\/audios\/d0cf19ffec55.mp3?extra=diTd1wHeAZ7fG8epVhDhIwTVI4kjItXaiPYlZxNgV5B40GYE7wSvoZ1i3EdpE0-gloydfWYleS9PTXdlGsVHEADozV787DvRjiljh89H-N2ROUpBK-i09xTXlskDg4PJtiRedwRJSJI"
+    },
+    {
+      "aid": 72181494,
+      "owner_id": 19425224,
+      "artist": "Krec",
+      "title": "Нежность",
+      "duration": 236,
+      "url": "http:\/\/cs1-25v4.vk-cdn.net\/p9\/436b88f5a05940.mp3?extra=WvALeyQPUO2Wk9HN2e4NhmiwqaeJK9jcqu6xpskKZzYv9nVHEwl3wLu5uzALCLgMeRRe-tGsIyFc3r32wTIKS8s1VV85AEq3JGvKRoklu8QSH20AEEmNFpm8Uf9xnjqLrALovTi9EUU",
+      "genre": 3
+    },
+    {
+      "aid": 71994928,
+      "owner_id": 19425224,
+      "artist": "Баста feat Guf",
+      "title": "Не все потеряно пока",
+      "duration": 266,
+      "url": "http:\/\/cs1-19v4.vk-cdn.net\/p8\/39e5060053d0de.mp3?extra=7PwY8sYwZe9yvdl2nnECZUCVHP7u6f-m3w-Y_qES0BT0KdAzFyRoF25EP-qxSgWgvbqhuZrz51voRlzlCGcscb6h3Mwj4Ww6YDjtJng7fF9vtjo07wzlXqk0_-aLeQ_RiYw0fCg7cCk",
+      "genre": 18
+    },
+    {
+      "aid": 71992444,
+      "owner_id": 19425224,
+      "artist": "Бумбокс",
+      "title": "Історія",
+      "duration": 142,
+      "url": "http:\/\/cs1-23v4.vk-cdn.net\/p32\/74aeccd7baa036.mp3?extra=5q6hfQEd_FPg3odXuwDHWIhoNHEZoAM5m47qRdydedhXhtOvE8jY7xXBy15mWXGLCZColY9AJhK7UYeq6PBfOFotjxxpRW4oTMxCyv_Xs9Gi2AFqMbf1II-7ylVIiXpvEYJPAhkjEO8",
+      "genre": 18
+    },
+    {
+      "aid": 71958032,
+      "owner_id": 19425224,
+      "artist": "Guf",
+      "title": " Nado le4itsya  , 2010",
+      "duration": 183,
+      "url": "http:\/\/cs1-15v4.vk-cdn.net\/p11\/fdd3435648f3bf.mp3?extra=j_XkDuDeJyWgmsXM7Isn-gvtlw4slD0054rvVhmlFxLyAVbkZLn4y1l8ZFGr_hwKbZM19dNLySuGb8I1WZkNnVwRZhkhcc-_apxSDtaCUg7SMT1czQ62SPBuY1InxB_3wviMbzXl6NE",
+      "genre": 18
+    },
+    {
+      "aid": 71958012,
+      "owner_id": 19425224,
+      "artist": "Guf",
+      "title": "Metropolitan Mail",
+      "duration": 213,
+      "url": "http:\/\/cs1-15v4.vk-cdn.net\/p34\/4b6931b28b498d.mp3?extra=-YmMM71ZIo6iy-GKR9_Qwj6Wkca7M8r33-BwRWL5QeiakQep6BQcccxGstDyoLYpZDfTZ998TkFsfy-1QS1ZEjJQr5emxav-Uk2kmeC10OEAbhgMI58txrXQNuUBqVphNmYhpPSxVxA",
+      "genre": 3
+    },
+    {
+      "aid": 71958004,
+      "owner_id": 19425224,
+      "artist": "Guf",
+      "title": "я люблю до слез из глаз",
+      "duration": 244,
+      "url": "http:\/\/cs1-29v4.vk-cdn.net\/p34\/b4594b27245710.mp3?extra=FlJ02dkc_zXmdQCEzAdYmbKteWKssbXz1Crf0arnCXBY_8gtQC5NdtcBN1WRiwml89U4dD7_m1K5nKG0sUfkgYobbh2v74oJWFmCp2O8m4V1GdmQ3cpCWm6I9yFGoNPls4H0ViJ7j44",
+      "genre": 3
+    },
+    {
+      "aid": 71957968,
+      "owner_id": 19425224,
+      "artist": "Guf",
+      "title": "Дома feat Ба",
+      "duration": 233,
+      "url": "http:\/\/cs1-20v4.vk-cdn.net\/p25\/234fb80584ec54.mp3?extra=YDUrCrRwxM_YMb8gbLB1oyHTaZvS-_BZySnGMinT14QRsw2I89gZCFix0_4IRirJqyXFNiglMDnwwf9ILDUVcJF3Nfq4R3YUCBbUlilCyLcwDXAK9k3PSLid7oLF7eLklZ6Rzh2ufXk",
+      "genre": 3
+    },
+    {
+      "aid": 71957953,
+      "owner_id": 19425224,
+      "artist": "Guf",
+      "title": "Больше стаффа, меньше табака",
+      "duration": 191,
+      "url": "http:\/\/cs4520.vk.me\/u29292545\/audios\/fb576046ae69.mp3?extra=yuxHOi2U-yVrKajDh7t8hv6Jvf5MuQoCh4uHx8wKjAOfglWyn7a4na2erX1ASXN-sMHcVHxbLlkfwBr_5m7szorH89JwC1SY8_jQZe3sHi3faQSQAZSRI8NGbeyOswBLaSZLKPsBgk0",
+      "genre": 18
+    },
+    {
+      "aid": 71649755,
+      "owner_id": 19425224,
+      "artist": "Centr",
+      "title": "Слайды",
+      "duration": 234,
+      "url": "http:\/\/cs4428.vk.me\/u2301478\/audios\/7b1bc49660df.mp3?extra=VfBp7fKjhDn0MbSKV7zQUUkS50wJRYozMdnxVtW4ZoL_tHmlmYOCo1o7_5C1V6Bc--3RETZjtJuwWQFfsKxSi91_9qQYrAtInkLHPu3t0jW_XivDdzq5ls_bb_g7-ysMukOp0C1tZy0",
+      "genre": 18
+    },
+    {
+      "aid": 71563746,
+      "owner_id": 19425224,
+      "artist": "REAL O",
+      "title": "я бы○○○",
+      "duration": 255,
+      "url": "http:\/\/cs4266.vk.me\/u27741745\/audios\/4f922639e768.mp3?extra=-Ra4UefpqHH3b14Uqf9_mszAlWWQVAYvzFqCJ28uMUxfikpTFsyrYMiKEOLJqufswClSVa9EZU4QodRoyeuZGXqxWQ5L1XNT2PZbYBTYGNMqJSwcEz5XQHqYy8w7ywJhsc57ZNm6Jog",
+      "genre": 18
+    },
+    {
+      "aid": 71563740,
+      "owner_id": 19425224,
+      "artist": "Real O (www.hitov.ru)",
+      "title": "Платье",
+      "duration": 157,
+      "url": "http:\/\/cs4534.vk.me\/u57308945\/audios\/0afed82867c3.mp3?extra=7RPKoOKQrdEXjIuroSsvuAGxeF_fKJi50asBGqpx1ofNaiV-n8cabIZwEzBj7eXPM9cSoSLXdjpMIP7k7A21c7ngUmekUwGOj1KGP2aAZj0VBH7wKWLgr5qOGUx8rByPQkamc7WwLb8",
+      "genre": 18
+    },
+    {
+      "aid": 71202716,
+      "owner_id": 19425224,
+      "artist": "Наговицын Сергей",
+      "title": "Потерянный край",
+      "duration": 413,
+      "url": "http:\/\/cs1-27v4.vk-cdn.net\/p5\/a8499f2b18a278.mp3?extra=luiNzAIXk-HueRx9OAX1Eulk3ldddOjEvfaQs88nPNzSdfnSyPhRKQUSKSo8BNczMb2JjMhWfmHP3LRXeD9DF_SItM4ozSeYJdkgUSXdJH_dZBZqyuGD32x-Qj4ue4if8LVfvxPvts0",
+      "genre": 18
+    },
+    {
+      "aid": 71090026,
+      "owner_id": 19425224,
+      "artist": "Баста",
+      "title": "Любовь без памяти",
+      "duration": 210,
+      "url": "http:\/\/cs1-24v4.vk-cdn.net\/p22\/4170c58d46d59c.mp3?extra=rjifbAitrWt9K6e0Pi4_vxtqi8E9Ae6oTV9WlZjwLTRmATz4LMT7A1lq3yVFDwZtkoDo7810TZzeTu5uZvXH9NA3UdxwDodMQQC8fAAGSSE5CY7IG8EGNgZyGsjdxO2kIfOrDZQhups",
+      "genre": 18
+    },
+    {
+      "aid": 70767856,
+      "owner_id": 19425224,
+      "artist": "Горячий шоколад ",
+      "title": "Неба мало",
+      "duration": 209,
+      "url": "http:\/\/cs1-28v4.vk-cdn.net\/p1\/b51ff77e37c6bd.mp3?extra=ZSnSCQkPhMu60MMncMYiomjHHaQ3C80jrLeGRLQv0ER4ZYnGj_squoYAiAqIBeDkXw1-Q0ukh7eUHAhDSTlvKlMMtuZcJjTB_APEJLXMWU4mY8vbSTKtTJJpBWzVOHYX_-P-Cn10V-A",
+      "genre": 18
+    },
+    {
+      "aid": 70605013,
+      "owner_id": 19425224,
+      "artist": "Каста",
+      "title": "Вокруг шум",
+      "duration": 214,
+      "url": "http:\/\/cs1-17v4.vk-cdn.net\/p11\/4cb5d0fb67bf4e.mp3?extra=X_St1lGNQ7-HO0ZRUqpqLhFnKO0bJOoqzc-IELG1egXwZ2a9-vxoxSezZMoskkgmJYUR4r4h3_Lyu1ucvk8jo-1g-umXOBJqw212UqrCH--H2YcDzAmn2Q8hmWx2IH6gkiTF74NSMOU",
+      "genre": 18
+    },
+    {
+      "aid": 70550650,
+      "owner_id": 19425224,
+      "artist": "Макс Барских",
+      "title": "Пусто",
+      "duration": 197,
+      "url": "http:\/\/cs1-17v4.vk-cdn.net\/p8\/f0afb0fc9a1e6c.mp3?extra=49aYDikGWCEGbQWENdrJq7lS-U4byfegjrqHNmSuklZKIsCFJ3gwl_fGb86pCJOC2lZReXGeOf3CpuB_FagsIz7eeDw3kRlS91AQe3431kbb9rBvcpiK0LGhqu_nHEIwNluMwceukuw",
+      "genre": 2
+    },
+    {
+      "aid": 70550464,
+      "owner_id": 19425224,
+      "artist": "Макс Барских",
+      "title": "Агония",
+      "duration": 199,
+      "url": "http:\/\/cs1-18v4.vk-cdn.net\/p5\/4a9776449db4f3.mp3?extra=B_ihdUOFYZILYjDshvquRBLMT1G9fF4t6EW70oLGflWkv_f2pfXE0pOGcEFOujw9jgF4MoyY9mHc-u29AKAkyoohUUrcPLyo-qV-UIV9cACUco4HU3Wwsvg_NgI_5iVlJC9UC1XBYMQ",
+      "genre": 2
+    },
+    {
+      "aid": 70544135,
+      "owner_id": 19425224,
+      "artist": "CENTR",
+      "title": "Зима",
+      "duration": 283,
+      "url": "http:\/\/cs1-21v4.vk-cdn.net\/p8\/02ae68a9577aa9.mp3?extra=K7NPoAqQ4nDMHA3d9ux8RsExqVoyRmXSSP8raSSrt7cvckNbxHKeqHnfWRS6CxHePoR-gC0xH-TTAZhwg2PYivpjt693_eliTHyFNyDcSGYHxijh24wAurs4zCBw9A2tvmrkFv8U6b0",
+      "genre": 18
+    },
+    {
+      "aid": 70483976,
+      "owner_id": 19425224,
+      "artist": " ДЖАНЕТ",
+      "title": " ДЖАНЕМ",
+      "duration": 240,
+      "url": "http:\/\/cs4490.vk.me\/u50166806\/audios\/b000b1f7992a.mp3?extra=KkBa8HcCU4AFgCk-oP4BNvkegxdNxnOB-9IJcNHi2Ar4L8ENBVv697mZ0vWwYIsrIj7bPp7GJbQkX8pWjdjTXlEwKq-Q-jgvtvfq66miZKwDd6QqEmS4B3jmbm-aLrC1MpEaXpthYS4",
+      "genre": 18
+    },
+    {
+      "aid": 70483815,
+      "owner_id": 19425224,
+      "artist": "Maestro \"Соло поэта\" feat M.a.x.i.M \"NB\" (при уч. Евгения Филипьева, Дмитрий Чабанов)",
+      "title": "Чувства on-line (запись \"Справжнiй звук\")",
+      "duration": 225,
+      "url": "http:\/\/cs1-18v4.vk-cdn.net\/p23\/5d8011ed945497.mp3?extra=emKq-CyEi0Ke4q15aV-ss9xrmSD87R8GBgghfgxcn5mJLsf3l-j6sT-VgQvAtJNBiRJuPLRnZFBVV5srUHF6PGZEFkJfTsTvBz60cF3dlXMcYL8LoSPn89_Lw832LdRNqwfokak_q5I",
+      "genre": 18
+    },
+    {
+      "aid": 70387515,
+      "owner_id": 19425224,
+      "artist": "Guf",
+      "title": "Для нее",
+      "duration": 201,
+      "url": "http:\/\/cs4511.vk.me\/u19425224\/audios\/7312a0598f3a.mp3?extra=anQnqWrFOC6Ak2Kqt1H6qzwz6sXtGMPVZBodA-dFOqioYZ4D9Kd-eZHihOetj3y0g7TcszyK2dX6eLvrsQ8FZNA-unj3O0f8gVLdIiIJdldmKQllTnff5oAFlUFIiL_nNk8PdbhgTio",
+      "genre": 3
+    },
+    {
+      "aid": 69929482,
+      "owner_id": 19425224,
+      "artist": "Кажэ обойма",
+      "title": "Внутри себя",
+      "duration": 200,
+      "url": "http:\/\/cs4341.vk.me\/u19425224\/audios\/82feb21d1514.mp3?extra=svT4OEfJMLtXqe8bfOi_SRhAV2KUaM7k7HQ4QNpKalvQuLah5f82eTEqJOjCqE1E7CnejfPjGO_qckVufq5B-N6F7dlb23WTrOq_wqgTtdEC7w5JttHphBAv4LJ8b5e8w_ssLibVaqM",
+      "genre": 3
+    },
+    {
+      "aid": 68316395,
+      "owner_id": 19425224,
+      "artist": "Неизвестен",
+      "title": "Без названия",
+      "duration": 203,
+      "url": "http:\/\/cs4434.vk.me\/u19425224\/audios\/fec542db22fa.mp3?extra=H2iYGVq3VCaHQWaVfXYXPwKRsPLjTh6wXUZZ3nm1rWzm_gGiyrXnHDwMUIQkHCV09ce7ZN71ZabzEoMFBUD9TR4jgrPNjuSMv0feTulattuYCWJRyfSS2cw5egpvsRhTCMg_BDfCQCU"
+    },
+    {
+      "aid": 57276029,
+      "owner_id": 19425224,
+      "artist": "Неизвестен",
+      "title": "Без названия",
+      "duration": 236,
+      "url": "http:\/\/cs4196.vk.me\/u19425224\/audios\/4416546a9028.mp3?extra=a0MzgfizAYnvmNiQdSK6T65PyOp3J3DVMrb1PEQ-mZ3y2I8QXlu1v16W-m8qxv_7VorvC4t_5tqkOEhH1q_aXhVnjtHsgyMI51eWv45zLwiYm9kjkx4S5I_R-cQQc5x6Bu0K8LvnRMk",
+      "genre": 18
+    }
+  ]
+}
