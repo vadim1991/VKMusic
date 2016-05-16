@@ -8,10 +8,8 @@
 
     <http access-denied-page="/WEB-INF/views/error.jsp">
         <intercept-url pattern="/tracks*" access="ROLE_ADMIN, ROLE_USER"/>
-        <intercept-url pattern="/person/*" access="ROLE_ADMIN,ROLE_USER"/>
-        <intercept-url pattern="/add*" access="ROLE_ADMIN"/>
-        <intercept-url pattern="/delete/*" access="ROLE_ADMIN"/>
-        <form-login login-page="/login.jsp" default-target-url="/"
+        <intercept-url pattern="/home" access="ROLE_ADMIN,ROLE_USER"/>
+        <form-login login-page="/login" default-target-url="/"
                     authentication-failure-url="/login.jsp?error=true" />
         <logout logout-url="/logout" logout-success-url="/index" />
 

@@ -1,16 +1,11 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Administrator
-  Date: 8/13/2015
-  Time: 10:31 AM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
-</body>
-</html>
+<script src="../resources/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="../resources/js/verify.js" type="text/javascript"></script>
+<script src="../resources/js/verify.min.js" type="text/javascript"></script>
+<script src="../resources/js/scroll-top.js" type="text/javascript"></script>
+<script src="../resources/js/isotope.js" type="text/javascript"></script>
+<script src="../resources/js/common.js" type="text/javascript"></script>
+<script src="../resources/js/APlayer.js"></script>
+<script src="../resources/js/demo.js"></script>

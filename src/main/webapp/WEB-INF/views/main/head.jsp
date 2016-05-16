@@ -1,11 +1,10 @@
 <head>
-  <link href="../resources/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-  <link href="../resources/bower_components/bootstrap-material-design/dist/css/roboto.css" rel="stylesheet">
-  <link href="../resources/bower_components/bootstrap-material-design/dist/css/material-fullpalette.css" rel="stylesheet">
-  <link href="../resources/bower_components/bootstrap-material-design/dist/css/ripples.css" rel="stylesheet">
-  <script src="../resources/bower_components/jquery/dist/jquery.js"></script>
-  <script src="../resources/bower_components/bootstrap/dist/js/bootstrap.js"></script>
-  <script src="../resources/bower_components/bootstrap-material-design/dist/js/material.js"></script>
-  <script src="../resources/bower_components/bootstrap-material-design/dist/js/ripples.js"></script>
+  <title>${param.pageName}</title>
+  <link href="../resources/css/normalize.css" rel="stylesheet" type="text/css"/>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/>
+  <link href="../resources/css/style.css" rel="stylesheet"/>
+  <link href="../resources/css/font-awesome.min.css" rel="stylesheet"/>
+  <link href="../resources/css/scroll-style.css" rel="stylesheet">
+  <link rel="stylesheet" href="../resources/css/APlayer.min.css">
 </head>
 

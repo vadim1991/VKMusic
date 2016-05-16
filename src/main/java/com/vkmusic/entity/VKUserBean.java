@@ -21,10 +21,6 @@ public class VKUserBean {
     private int sex;
     private String nickName;
     private String screenName;
-    private DateTime birthDay;
-    private int city;
-    private int country;
-    private int timezone;
     private String photoUrl;
     @Transient
     private ResponseVK responseVK;
@@ -68,38 +64,6 @@ public class VKUserBean {
 
     public void setScreenName(String screenName) {
         this.screenName = screenName;
-    }
-
-    public DateTime getBirthDay() {
-        return birthDay;
-    }
-
-    public void setBirthDay(DateTime birthDay) {
-        this.birthDay = birthDay;
-    }
-
-    public int getCity() {
-        return city;
-    }
-
-    public void setCity(int city) {
-        this.city = city;
-    }
-
-    public int getCountry() {
-        return country;
-    }
-
-    public void setCountry(int country) {
-        this.country = country;
-    }
-
-    public int getTimezone() {
-        return timezone;
-    }
-
-    public void setTimezone(int timezone) {
-        this.timezone = timezone;
     }
 
     public String getPhotoUrl() {
@@ -159,10 +123,6 @@ public class VKUserBean {
                 ", sex=" + sex +
                 ", nickName='" + nickName + '\'' +
                 ", screenName='" + screenName + '\'' +
-                ", birthDay=" + birthDay +
-                ", city=" + city +
-                ", country=" + country +
-                ", timezone=" + timezone +
                 ", photoUrl='" + photoUrl + '\'' +
                 '}';
     }

@@ -1,6 +1,5 @@
 package com.vkmusic.service.parser;
 
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.vkmusic.datamodel.CommonConstants;
@@ -13,7 +12,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 /**
  * Created by Vadym_Vlasenko on 5/6/2016.
@@ -60,13 +62,9 @@ public class JSONParser {
         vkUserBean.setId(vkResponseBean.getUid());
         vkUserBean.setFirstName(vkResponseBean.getFirst_name());
         vkUserBean.setLastName(vkResponseBean.getLast_name());
-        //vkUserBean.setBirthDay(new DateTime(vkProfileBean.getBdate()));
         vkUserBean.setNickName(vkResponseBean.getNickname());
         vkUserBean.setScreenName(vkResponseBean.getScreen_name());
         vkUserBean.setSex(vkResponseBean.getSex());
-        vkUserBean.setCity(vkResponseBean.getCity());
-        vkUserBean.setCountry(vkResponseBean.getCountry());
-        vkUserBean.setTimezone(vkResponseBean.getTimezone());
         vkUserBean.setPhotoUrl(vkResponseBean.getPhoto().replaceAll(LEFT_SLASH, RIGHT_SLASH));
         setUserRole(vkUserBean);
         return vkUserBean;

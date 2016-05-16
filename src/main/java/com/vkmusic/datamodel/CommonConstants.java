@@ -63,12 +63,4 @@ public class CommonConstants {
     public static final String SUBJECT = "subject";
     public static final String BUTTON = "button";
     public static final String URL = "url";
-    public static final String METHOD_AUDIO_GET = "/method/audio.get";
-    public static final String API_VK_COM_HOST = "api.vk.com";
-    public static final String HTTPS_SCHEME = "https";
-    public static final String OWNER_ID = "owner_id";
-    public static final String NEED_USER = "need_user";
-    public static final String COUNT = "count";
-    public static final String OFFSET = "offset";
-    public static final String ACCESS_TOKEN = "access_token";
 }

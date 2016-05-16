@@ -1,5 +1,7 @@
 package com.vkmusic.entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.io.Serializable;
 
 /**
@@ -13,10 +15,7 @@ public class VKResponseBean implements Serializable {
     private int sex;
     private String nickname;
     private String screen_name;
-    private String bdate;
-    private int city;
-    private int country;
-    private int timezone;
+    @JsonProperty("photo_200")
     private String photo;
 
     public String getUid() {
@@ -65,38 +64,6 @@ public class VKResponseBean implements Serializable {
 
     public void setScreen_name(String screen_name) {
         this.screen_name = screen_name;
-    }
-
-    public String getBdate() {
-        return bdate;
-    }
-
-    public void setBdate(String bdate) {
-        this.bdate = bdate;
-    }
-
-    public int getCity() {
-        return city;
-    }
-
-    public void setCity(int city) {
-        this.city = city;
-    }
-
-    public int getCountry() {
-        return country;
-    }
-
-    public void setCountry(int country) {
-        this.country = country;
-    }
-
-    public int getTimezone() {
-        return timezone;
-    }
-
-    public void setTimezone(int timezone) {
-        this.timezone = timezone;
     }
 
     public String getPhoto() {

@@ -7,16 +7,18 @@ import com.vkmusic.entity.vk.Track;
 import com.vkmusic.entity.vk.TrackParam;
 import com.vkmusic.exception.VKIntegrationException;
 import com.vkmusic.service.parser.JSONParser;
+import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.net.URI;
+import java.util.Collections;
 import java.util.List;
 
 import static com.vkmusic.datamodel.CommonURLs.REDIRECT_URL_VK;
+import static com.vkmusic.datamodel.VKApi.FIELD_VALUES;
 import static com.vkmusic.datamodel.VKApiURLs.REDIRECT_URL_VK_FORMAT;
-import static com.vkmusic.datamodel.VKApiURLs.USER_GENERAL_INFO_URL;
 
 /**
  * Created by Vadym_Vlasenko on 5/6/2016.
@@ -45,8 +47,8 @@ public class VKApiManager {
     }
 
     public VKUserBean getGeneralInfo(ResponseVK responseVK) throws IOException {
-        String userGeneralURL = String.format(USER_GENERAL_INFO_URL, responseVK.getUser_id(), responseVK.getAccess_token());
-        String responseWithUserInfo = connector.sendGet(userGeneralURL);
+        URI generalInfoURI = queryBuilder.getGeneralInfo(responseVK, FIELD_VALUES);
+        String responseWithUserInfo = connector.sendGet(generalInfoURI);
         VKUserBean vkUserBean = parser.getVKUserBean(responseWithUserInfo);
         return vkUserBean;
 
@@ -55,10 +57,8 @@ public class VKApiManager {
     public List<Track> getAudio(VKUserBean userBean, TrackParam trackParam) throws IOException {
         URI uriAudio = queryBuilder.getURIAudio(userBean, trackParam);
         String response = connector.sendGet(uriAudio);
-        System.out.println(response);
         List<Track> tracks = parser.getTracks(response);
-        System.out.println(tracks);
-        return tracks;
+        return CollectionUtils.isEmpty(tracks) ? Collections.<Track>emptyList() : tracks;
     }
 
     private String getVKAccessTokenURL(String code) {

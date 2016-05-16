@@ -32,7 +32,6 @@ public class HttpConnector {
         httpPost.setEntity(postParams);
         CloseableHttpResponse httpResponse = httpClient.execute(httpPost);
         int statusCode = httpResponse.getStatusLine().getStatusCode();
-        System.out.println("POST Response Status: " + statusCode);
         if (statusCode != 200) {
             throw new HttpConnectionException();
         }
@@ -55,8 +54,6 @@ public class HttpConnector {
         HttpClient client = HttpClientBuilder.create().build();
         HttpResponse response = client.execute(request);
         int statusCode = response.getStatusLine().getStatusCode();
-        System.out.println("GET Response Status: " + statusCode);
-        System.out.println("GET Response URL: " + request.getURI().toString());
         if (statusCode != 200) {
             throw new HttpConnectionException("Status code is %s" + statusCode);
         }
