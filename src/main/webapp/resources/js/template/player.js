@@ -13,7 +13,7 @@
 			cssSelectorAncestor: "#jp_container_1"
 		}, listTrack, {
 			swfPath: "./assets/js/jplayer/",
-			supplied: "mp3, oga",
+			supplied: "mp3",
 			smoothPlayBar: true,
 		});
         }

@@ -20,173 +20,9 @@
 <section id="page-global">
 
     <!-- ## NAV HEADER ## -->
-    <header id="nav-header" class="clearfix">
-        <!-- ## PRIMARY NAV ## -->
-        <nav id="primary-nav">
-            <ul class="clearfix">
-                <li class="active">
-                    <a href="http://themeforest.quadcodes.com/site/musicvent/albums.html">
-                        <i class="icon-music-1"></i>
-                        <p>Albums</p>
-                    </a>
-                    <ul>
-                        <li class="active"><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html">Album
-                            Single</a></li>
-                        <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#">Newest</a></li>
-                        <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#">Popular</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="http://themeforest.quadcodes.com/site/musicvent/artists.html">
-                        <i class="icon-user-1"></i>
-                        <p>Artists</p>
-                    </a>
-                    <ul>
-                        <li><a href="http://themeforest.quadcodes.com/site/musicvent/artist-single.html">Artist
-                            Single</a></li>
-                        <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#">Newest</a></li>
-                        <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#">Popular</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="http://themeforest.quadcodes.com/site/musicvent/events.html">
-                        <i class="icon-calendar-2"></i>
-                        <p>Events</p>
-                    </a>
-                    <ul>
-                        <li><a href="http://themeforest.quadcodes.com/site/musicvent/event-single.html">Event Single</a>
-                        </li>
-                        <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#">Newest</a></li>
-                        <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#">Ending Soon</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="http://themeforest.quadcodes.com/site/musicvent/blog.html">
-                        <i class="icon-book-open"></i>
-                        <p>Blog</p>
-                    </a>
-                    <ul>
-                        <li><a href="http://themeforest.quadcodes.com/site/musicvent/blog-single.html">Blog Single</a>
-                        </li>
-                        <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#">Newest</a></li>
-                        <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#">Popular</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="http://themeforest.quadcodes.com/site/musicvent/gallery.html">
-                        <i class="icon-picture"></i>
-                        <p>Gallery</p>
-                    </a>
-                    <ul>
-                        <li><a href="http://themeforest.quadcodes.com/site/musicvent/gallery.html">Newest</a></li>
-                        <li><a href="http://themeforest.quadcodes.com/site/musicvent/gallery.html">Popular</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#">
-                        <i class="icon-plus-squared"></i>
-                        <p>Pages</p>
-                    </a>
-                    <ul>
-                        <li><a href="http://themeforest.quadcodes.com/site/musicvent/fullwidth.html">Fullwidth</a></li>
-                        <li><a href="http://themeforest.quadcodes.com/site/musicvent/404.html">404 Error</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="http://themeforest.quadcodes.com/site/musicvent/contact.html">
-                        <i class="icon-email"></i>
-                        <p>Contact</p>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-
-        <!-- ## SEC NAV ## -->
-        <nav id="sec-nav">
-            <ul class="clearfix">
-                <li class="active"><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html">Album
-                    Single</a></li>
-                <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#">Newest</a></li>
-                <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#">Popular</a></li>
-            </ul>
-        </nav>
-
-        <!-- ## MOBILE NAV ## -->
-        <ul id="mobileNav">
-            <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#"><i class="icon-menu"></i>
-                Navigation <i class="icon-down-open-big"></i></a>
-                <ul class="clearfix">
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/albums.html">
-                        <i class="icon-music-1"></i>
-                        <p>Albums</p>
-                    </a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html" class="child">&nbsp;-
-                        Album Single</a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#" class="child">
-                        &nbsp;- Newest</a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#" class="child">
-                        &nbsp;- Popular</a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/artists.html">
-                        <i class="icon-user-1"></i>
-                        <p>Artists</p>
-                    </a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/artist-single.html" class="child">
-                        &nbsp;- Artist Single</a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#" class="child">
-                        &nbsp;- Newest</a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#" class="child">
-                        &nbsp;- Popular</a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/events.html">
-                        <i class="icon-calendar-2"></i>
-                        <p>Events</p>
-                    </a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/event-single.html" class="child">&nbsp;-
-                        Event Single</a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#" class="child">
-                        &nbsp;- Newest</a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#" class="child">
-                        &nbsp;- Ending Soon</a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/blog.html">
-                        <i class="icon-book-open"></i>
-                        <p>Blog</p>
-                    </a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/blog-single.html" class="child">&nbsp;-
-                        Blog Single</a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#" class="child">
-                        &nbsp;- Newest</a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#" class="child">
-                        &nbsp;- Popular</a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/gallery.html">
-                        <i class="icon-picture"></i>
-                        <p>Gallery</p>
-                    </a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/gallery.html" class="child">&nbsp;-
-                        Newest</a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/gallery.html" class="child">&nbsp;-
-                        Popular</a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#">
-                        <i class="icon-plus-squared"></i>
-                        <p>Pages</p>
-                    </a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/fullwidth.html" class="child">&nbsp;-
-                        Fullwidth</a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/404.html" class="child">&nbsp;- 404
-                        Error</a></li>
-                    <li><a href="http://themeforest.quadcodes.com/site/musicvent/contact.html">
-                        <i class="icon-email"></i>
-                        <p>Contact</p>
-                    </a></li>
-                </ul>
-            </li>
-        </ul>
-
-        <div id="logo"><a href="http://themeforest.quadcodes.com/site/musicvent/index.html"><img src="${imagePath}logo.png"
-                                                                                                 alt="LOGO"></a></div>
-    </header>
+    <jsp:include page="main/header.jsp">
+        <jsp:param name="pageName" value="my-tracks"></jsp:param>
+    </jsp:include>
     <!-- ## NAV HEADER END ## -->
 
     <!-- ## PAGE WRAPPER ## -->
@@ -199,18 +35,12 @@
             <div id="fixy">
                 <!-- ## PAGE HEADER ## -->
                 <header id="page-header">
-                    <h1>Album. <span>Browse through tracks </span></h1>
+                    <h1>My tracks. <span>Browse through tracks </span></h1>
                 </header>
 
                 <!-- ## CONTENT META ## -->
                 <nav id="content-meta">
                     <div class="container">
-                        <!-- ## CATEGORIES ## -->
-                        <ul class="arrow-list clearfix">
-                            <li>GENRES ►</li>
-                            <li>Drum</li>
-                            <li>Bass</li>
-                        </ul>
 
                         <!-- ## SOCIAL ## -->
                         <ul class="social-share">
@@ -341,69 +171,7 @@
                             </div>
                             <!-- ## TRACK LIST ## -->
                             <div class="jp-playlist">
-                                <ul style="display: block;">
-                                    <li class="jp-playlist-current">
-                                        <div><a href="javascript:;" class="jp-playlist-item-remove"
-                                                style="display: none;">×</a><a href="javascript:;"
-                                                                               class="jp-playlist-item jp-playlist-current"
-                                                                               tabindex="1"><span class="track-play"><i
-                                                class="icon-play"></i></span><span class="track-title"><span
-                                                class="jp-title">Whistle Blower</span> <span class="jp-artist">by Adam Jamescuz</span></span></a><a
-                                                class="soundcloud tips"
-                                                href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#"
-                                                title="SOUNDCLOUD" target="_blank"><i class="icon-soundcloud"></i></a><a
-                                                class="itunes tips"
-                                                href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#"
-                                                title="ITUNES" target="_blank"><i class="icon-itunes"></i></a></div>
-                                    </li>
-                                    <li>
-                                        <div><a href="javascript:;" class="jp-playlist-item-remove"
-                                                style="display: none;">×</a><a href="javascript:;"
-                                                                               class="jp-playlist-item"
-                                                                               tabindex="1"><span class="track-play"><i
-                                                class="icon-play"></i></span><span class="track-title"><span
-                                                class="jp-title">Tight distorted house</span> <span class="jp-artist">by Adam Jamescuz</span></span></a><a
-                                                class="itunes tips"
-                                                href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#"
-                                                title="ITUNES" target="_blank"><i class="icon-itunes"></i></a></div>
-                                    </li>
-                                    <li>
-                                        <div><a href="javascript:;" class="jp-playlist-item-remove"
-                                                style="display: none;">×</a><a href="javascript:;"
-                                                                               class="jp-playlist-item"
-                                                                               tabindex="1"><span class="track-play"><i
-                                                class="icon-play"></i></span><span class="track-title"><span
-                                                class="jp-title">Because We Are Young</span> <span class="jp-artist">by Alba Coherta</span></span></a><a
-                                                class="download tips"
-                                                href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#"
-                                                title="DOWNLOAD" target="_blank"><i class="icon-download"></i></a></div>
-                                    </li>
-                                    <li>
-                                        <div><a href="javascript:;" class="jp-playlist-item-remove"
-                                                style="display: none;">×</a><a href="javascript:;"
-                                                                               class="jp-playlist-item"
-                                                                               tabindex="1"><span class="track-play"><i
-                                                class="icon-play"></i></span><span class="track-title"><span
-                                                class="jp-title">Central Part</span> <span
-                                                class="jp-artist">by Joesacco</span></span></a><a
-                                                class="soundcloud tips"
-                                                href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#"
-                                                title="SOUNDCLOUD" target="_blank"><i class="icon-soundcloud"></i></a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div><a href="javascript:;" class="jp-playlist-item-remove"
-                                                style="display: none;">×</a><a href="javascript:;"
-                                                                               class="jp-playlist-item"
-                                                                               tabindex="1"><span class="track-play"><i
-                                                class="icon-play"></i></span><span class="track-title"><span
-                                                class="jp-title">Sunset on the Terrace</span> <span class="jp-artist">by Dejans</span></span></a><a
-                                                class="soundcloud tips"
-                                                href="http://themeforest.quadcodes.com/site/musicvent/album-single.html#"
-                                                title="SOUNDCLOUD" target="_blank"><i class="icon-soundcloud"></i></a>
-                                        </div>
-                                    </li>
-                                </ul>
+                                <ul></ul>
                             </div>
                             <!-- ## PLAYER FALLBACK ## -->
                             <div class="jp-no-solution" style="display: none;">
