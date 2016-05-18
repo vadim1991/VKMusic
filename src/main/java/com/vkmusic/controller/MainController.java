@@ -14,8 +14,8 @@ import javax.servlet.http.HttpSession;
 public class MainController {
 
     public static final String LOGIN_PAGE = "login";
-    public static final String HOME_PAGE = "home";
-    public static final String HOME_URL = "/home";
+    public static final String HOME_PAGE = "my-tracks";
+    public static final String HOME_URL = "/my-tracks";
     public static final String LOGIN_URL = "/login";
     public static final String ROOT_URL = "/";
 

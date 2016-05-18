@@ -3,7 +3,6 @@ package com.vkmusic.controller;
 import com.vkmusic.datamodel.CommonConstants;
 import com.vkmusic.entity.ResponseVK;
 import com.vkmusic.entity.VKUserBean;
-import com.vkmusic.entity.vk.TrackParam;
 import com.vkmusic.service.api.VKApiManager;
 import com.vkmusic.service.autentication.CustomAuthenticationManager;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,7 +36,7 @@ public class LoginController {
         } else {
             return "redirect:/";
         }
-        return "redirect:/home";
+        return "redirect:/my-tracks";
     }
 
 }

@@ -56,6 +56,11 @@ public class Track implements Serializable {
         return url;
     }
 
+    @JsonProperty("mp3")
+    public String getMp3() {
+        return url;
+    }
+
     public void setUrl(String url) {
         this.url = url;
     }

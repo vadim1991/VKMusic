@@ -7,6 +7,7 @@
 	http://www.springframework.org/schema/security/spring-security-3.2.xsd">
 
     <http access-denied-page="/WEB-INF/views/error.jsp">
+        <intercept-url pattern="/my-tracks*" access="ROLE_ADMIN, ROLE_USER"/>
         <intercept-url pattern="/tracks*" access="ROLE_ADMIN, ROLE_USER"/>
         <intercept-url pattern="/home" access="ROLE_ADMIN,ROLE_USER"/>
         <form-login login-page="/login" default-target-url="/"
