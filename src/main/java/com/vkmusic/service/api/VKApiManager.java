@@ -3,6 +3,8 @@ package com.vkmusic.service.api;
 import com.vkmusic.entity.AuthenticationConfig;
 import com.vkmusic.entity.ResponseVK;
 import com.vkmusic.entity.VKUserBean;
+import com.vkmusic.entity.vk.AudioSearchBean;
+import com.vkmusic.entity.vk.FriendParamBean;
 import com.vkmusic.entity.vk.Track;
 import com.vkmusic.entity.vk.TrackParam;
 import com.vkmusic.exception.VKIntegrationException;
@@ -51,14 +53,31 @@ public class VKApiManager {
         String responseWithUserInfo = connector.sendGet(generalInfoURI);
         VKUserBean vkUserBean = parser.getVKUserBean(responseWithUserInfo);
         return vkUserBean;
+    }
 
+    public List<VKUserBean> getFriends(VKUserBean userBean, FriendParamBean friendParamBean) throws IOException {
+        URI friendsURI = queryBuilder.getFriendsURI(userBean, friendParamBean);
+        String response = connector.sendGet(friendsURI);
+        List<VKUserBean> vkUserBeanList = parser.getVKUserBeanList(response);
+        return getFinalList(vkUserBeanList);
     }
 
     public List<Track> getAudio(VKUserBean userBean, TrackParam trackParam) throws IOException {
         URI uriAudio = queryBuilder.getURIAudio(userBean, trackParam);
         String response = connector.sendGet(uriAudio);
         List<Track> tracks = parser.getTracks(response);
-        return CollectionUtils.isEmpty(tracks) ? Collections.<Track>emptyList() : tracks;
+        return getFinalList(tracks);
+    }
+
+    public List<Track> searchAudio(VKUserBean userBean, AudioSearchBean searchBean) throws IOException {
+        URI uriBySearchAudio = queryBuilder.getURIBySearchAudio(userBean, searchBean);
+        String response = connector.sendGet(uriBySearchAudio);
+        List<Track> tracks = parser.getTracks(response);
+        return getFinalList(tracks);
+    }
+
+    private <T extends Object> List<T> getFinalList(List<T> list) {
+        return CollectionUtils.isEmpty(list) ? Collections.<T>emptyList() : list;
     }
 
     private String getVKAccessTokenURL(String code) {

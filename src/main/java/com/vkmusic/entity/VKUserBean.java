@@ -1,11 +1,13 @@
 package com.vkmusic.entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.common.base.Objects;
 import org.joda.time.DateTime;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Transient;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -15,13 +17,23 @@ import java.util.Set;
 public class VKUserBean {
 
     @Id
+    @JsonProperty("uid")
     private String id;
+    @JsonProperty("first_name")
     private String firstName;
+    @JsonProperty("last_name")
     private String lastName;
     private int sex;
+    @JsonProperty("nickname")
     private String nickName;
+    @JsonProperty("screen_name")
     private String screenName;
+    @JsonProperty("photo_200")
     private String photoUrl;
+    private String online;
+    @JsonProperty("user_id")
+    private String userID;
+    private List<String> lists;
     @Transient
     private ResponseVK responseVK;
     private Set<Role> roles;
@@ -96,6 +108,30 @@ public class VKUserBean {
 
     public void setRoles(Set<Role> roles) {
         this.roles = roles;
+    }
+
+    public String getOnline() {
+        return online;
+    }
+
+    public void setOnline(String online) {
+        this.online = online;
+    }
+
+    public String getUserID() {
+        return userID;
+    }
+
+    public void setUserID(String userID) {
+        this.userID = userID;
+    }
+
+    public List<String> getLists() {
+        return lists;
+    }
+
+    public void setLists(List<String> lists) {
+        this.lists = lists;
     }
 
     @Override

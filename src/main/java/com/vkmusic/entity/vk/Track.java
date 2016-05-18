@@ -19,6 +19,7 @@ public class Track implements Serializable {
     private String lyricsID;
     private int duration;
     private int genre;
+    private String album;
 
     public String getAid() {
         return aid;
@@ -89,6 +90,14 @@ public class Track implements Serializable {
         this.genre = genre;
     }
 
+    public String getAlbum() {
+        return album;
+    }
+
+    public void setAlbum(String album) {
+        this.album = album;
+    }
+
     @Override
     public String toString() {
         return "Track{" +
@@ -100,6 +109,7 @@ public class Track implements Serializable {
                 ", lyricsID='" + lyricsID + '\'' +
                 ", duration=" + duration +
                 ", genre=" + genre +
+                ", album='" + album + '\'' +
                 '}';
     }
 }

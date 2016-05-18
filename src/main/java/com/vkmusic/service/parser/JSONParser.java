@@ -2,12 +2,11 @@ package com.vkmusic.service.parser;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.vkmusic.datamodel.CommonConstants;
 import com.vkmusic.entity.ResponseVK;
 import com.vkmusic.entity.Role;
-import com.vkmusic.entity.VKResponseBean;
 import com.vkmusic.entity.VKUserBean;
 import com.vkmusic.entity.vk.Track;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,6 +15,8 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+
+import static com.vkmusic.datamodel.CommonConstants.USER_ROLE;
 
 /**
  * Created by Vadym_Vlasenko on 5/6/2016.
@@ -31,11 +32,11 @@ public class JSONParser {
     private ObjectMapper objectMapper;
 
     public VKUserBean getVKUserBean(String response) throws IOException {
-        JsonNode jsonNode = objectMapper.readTree(response);
-        JsonNode responseNode = jsonNode.get(RESPONSE);
-        JsonNode profileNode = responseNode.get(0);
-        VKResponseBean vkResponseBean = objectMapper.readValue(String.valueOf(profileNode), VKResponseBean.class);
-        return getUserBeanFromProfile(vkResponseBean);
+        return getUserBeanListFromResponse(response).get(0);
+    }
+
+    public List<VKUserBean> getVKUserBeanList(String response) throws IOException {
+        return getUserBeanListFromResponse(response);
     }
 
     public ResponseVK getResponseVK(String response) throws IOException {
@@ -57,22 +58,28 @@ public class JSONParser {
         return tracks;
     }
 
-    private VKUserBean getUserBeanFromProfile(VKResponseBean vkResponseBean) {
-        VKUserBean vkUserBean = new VKUserBean();
-        vkUserBean.setId(vkResponseBean.getUid());
-        vkUserBean.setFirstName(vkResponseBean.getFirst_name());
-        vkUserBean.setLastName(vkResponseBean.getLast_name());
-        vkUserBean.setNickName(vkResponseBean.getNickname());
-        vkUserBean.setScreenName(vkResponseBean.getScreen_name());
-        vkUserBean.setSex(vkResponseBean.getSex());
-        vkUserBean.setPhotoUrl(vkResponseBean.getPhoto().replaceAll(LEFT_SLASH, RIGHT_SLASH));
-        setUserRole(vkUserBean);
-        return vkUserBean;
+    private List<VKUserBean> getUserBeanListFromResponse(String response) throws IOException {
+        List<VKUserBean> userBeanList = new ArrayList<>();
+        JsonNode jsonNode = objectMapper.readTree(response);
+        JsonNode trackNodes = jsonNode.get(RESPONSE);
+        for (JsonNode userNode : trackNodes) {
+            if (userNode.isInt()) {
+                continue;
+            }
+            VKUserBean userBean = objectMapper.readValue(userNode.toString(), VKUserBean.class);
+            String photoUrl = userBean.getPhotoUrl();
+            if (StringUtils.isNoneBlank(photoUrl)) {
+                userBean.setPhotoUrl(photoUrl.replaceAll(LEFT_SLASH, RIGHT_SLASH));
+            }
+            setUserRole(userBean);
+            userBeanList.add(userBean);
+        }
+        return userBeanList;
     }
 
     private void setUserRole(VKUserBean vkUserBean) {
         Set<Role> roles = new HashSet<>();
-        roles.add(CommonConstants.USER_ROLE);
+        roles.add(USER_ROLE);
         vkUserBean.setRoles(roles);
     }
 

@@ -14,20 +14,20 @@ import javax.servlet.http.HttpSession;
 public class MainController {
 
     public static final String LOGIN_PAGE = "login";
-    public static final String HOME_PAGE = "my-tracks";
+    public static final String MY_TRACKS = "my-tracks";
     public static final String HOME_URL = "/my-tracks";
     public static final String LOGIN_URL = "/login";
     public static final String ROOT_URL = "/";
 
     @RequestMapping(value = HOME_URL)
     public String getIndexPage() {
-        return HOME_PAGE;
+        return MY_TRACKS;
     }
 
     @RequestMapping(value = ROOT_URL)
     public String getHomePage(HttpSession session) {
         VKUserBean profile = (VKUserBean) session.getAttribute(CommonConstants.PROFILE);
-        String page = profile == null ? LOGIN_PAGE : HOME_PAGE;
+        String page = profile == null ? LOGIN_PAGE : MY_TRACKS;
         return page;
     }
 

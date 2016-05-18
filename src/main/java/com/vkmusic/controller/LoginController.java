@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
+import static com.vkmusic.datamodel.CommonConstants.*;
+
 /**
  * Created by Vadym_Vlasenko on 5/6/2016.
  */
@@ -31,7 +33,7 @@ public class LoginController {
         VKUserBean vkUserBean = apiManager.getGeneralInfo(responseVK);
         vkUserBean.setResponseVK(responseVK);
         if (vkUserBean != null) {
-            session.setAttribute(CommonConstants.PROFILE, vkUserBean);
+            session.setAttribute(PROFILE, vkUserBean);
             authenticationManager.authenticateUser(vkUserBean);
         } else {
             return "redirect:/";
