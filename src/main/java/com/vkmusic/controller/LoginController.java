@@ -5,6 +5,7 @@ import com.vkmusic.entity.ResponseVK;
 import com.vkmusic.entity.VKUserBean;
 import com.vkmusic.service.api.VKApiManager;
 import com.vkmusic.service.autentication.CustomAuthenticationManager;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -28,7 +29,10 @@ public class LoginController {
     private CustomAuthenticationManager authenticationManager;
 
     @RequestMapping(value = "/vklogin", method = RequestMethod.GET)
-    public String loginWithVK(@RequestParam("code") String code, HttpSession session) throws IOException {
+    public String loginWithVK(@RequestParam(required = false) String code, @RequestParam(required = false) String error, HttpSession session) throws IOException {
+        if (StringUtils.isNotBlank(error)) {
+            return "redirect:/";
+        }
         ResponseVK responseVK = apiManager.authentication(code);
         VKUserBean vkUserBean = apiManager.getGeneralInfo(responseVK);
         vkUserBean.setResponseVK(responseVK);

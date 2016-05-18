@@ -19,7 +19,7 @@ import static com.vkmusic.datamodel.CommonConstants.*;
  * Created by Vadym_Vlasenko on 5/18/2016.
  */
 @Controller
-public class FreindController {
+public class FriendController {
 
     @Autowired
     private VKApiManager apiManager;
