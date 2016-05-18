@@ -14,4 +14,3 @@
 <script src="../resources/js/template/jplayer.playlist.min.js"></script>
 <script src="../resources/js/template/init.js"></script>
 <script src="../resources/js/template/player.js"></script>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>

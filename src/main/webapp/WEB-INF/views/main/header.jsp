@@ -1,3 +1,4 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <c:set var="imagePath" value="../resources/images/template/"/>
 <header id="nav-header" class="clearfix">
     <!-- ## PRIMARY NAV ## -->
@@ -28,11 +29,6 @@
                 </a>
             </li>
         </ul>
-    </nav>
-
-    <!-- ## SEC NAV ## -->
-    <nav id="sec-nav">
-
     </nav>
 
     <!-- ## MOBILE NAV ## -->
