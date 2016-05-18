@@ -67,6 +67,14 @@
                                     </div>
                                     <!-- ## CONTROLS ## -->
                                     <div class="jp-gui jp-interface">
+                                        <div class="jp-volume-controls">
+                                            <a href="javascript:;" class="jp-mute" role="button" tabindex="0"><i class="icon-volume-off"></i></a>
+                                        <div class="jp-volume-bar">
+                                            <div class="jp-volume-bar-value"></div>
+                                        </div>
+                                            <a href="javascript:;" class="jp-volume-max" role="button" tabindex="0"><i class="icon-volume-off"></i></a>
+
+                                        </div>
                                         <ul class="jp-controls clearfix">
                                             <li><a href="javascript:;" class="jp-previous" tabindex="1"><i
                                                     class="icon-backward"></i></a></li>

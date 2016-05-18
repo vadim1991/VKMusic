@@ -784,7 +784,10 @@ ul.sortable-list > li:before            {    content: attr(data-sortable);
 /* 	8. JPLAYER  */
 /* --------------------------------------------------------------------------------------------------------------------------- */
 
-.jp-controls                            {    width: 105px;
+.jp-controls, .jp-volume-controls       {
+                                             display: inline-block;
+                                             vertical-align: top;
+                                             width: 105px;
                                              padding: 0 0 0 8px;
                                              margin: 15px 0 0 25px;
                                              background: rgba(255,255,255,0.12);
@@ -836,6 +839,28 @@ ul.sortable-list > li:before            {    content: attr(data-sortable);
                                         }
 .jp-toggles li a.jp-shuffle-off,
 .jp-toggles li a.jp-repeat-off          { 	color: #00DF83 }
+
+.jp-volume-bar,
+.jp-volume-controls a                   {
+                                            display: inline-block;
+                                            }
+.jp-volume-bar                               {
+                                            background: #222;
+                                            width: 46px;
+                                            height: 5px;
+                                            margin: 0 5px;
+                                            cursor: pointer;
+                                            }
+.jp-volume-bar-value                    {
+                                            background: #FB3529;
+                                            width: 0;
+                                            height: 5px;
+                                        }
+.jp-volume-controls a                   {
+                                            color: #fff;
+                                            font-size: 15px;
+                                            line-height: 28px;
+                                                }
 
 /* === 8.1 JPLAYER PLAYLIST === */
 .playlist-heading                       {    position: relative;
