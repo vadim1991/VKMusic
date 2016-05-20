@@ -11,6 +11,14 @@ public class ResponseVK implements Serializable {
     private String expires_in;
     private String user_id;
 
+    public ResponseVK() {
+    }
+
+    public ResponseVK(String user_id, String access_token) {
+        this.user_id = user_id;
+        this.access_token = access_token;
+    }
+
     public String getAccess_token() {
         return access_token;
     }

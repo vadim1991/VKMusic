@@ -28,9 +28,4 @@ public class MainController {
         return page;
     }
 
-    @RequestMapping(value = LOGIN_URL)
-    public String login() {
-        return LOGIN_PAGE;
-    }
-
 }
