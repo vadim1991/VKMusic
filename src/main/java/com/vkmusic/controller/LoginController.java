@@ -1,6 +1,6 @@
 package com.vkmusic.controller;
 
-import com.vkmusic.datamodel.CommonConstants;
+import com.vkmusic.datamodel.CommonURLs;
 import com.vkmusic.entity.ResponseVK;
 import com.vkmusic.entity.VKUserBean;
 import com.vkmusic.service.api.VKApiManager;
@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-import static com.vkmusic.datamodel.CommonConstants.*;
+import static com.vkmusic.datamodel.CommonConstants.PROFILE;
 
 /**
  * Created by Vadym_Vlasenko on 5/6/2016.
@@ -28,10 +28,10 @@ public class LoginController {
     @Autowired
     private CustomAuthenticationManager authenticationManager;
 
-    @RequestMapping(value = "/vklogin", method = RequestMethod.GET)
+    @RequestMapping(value = CommonURLs.VKLOGIN_URL, method = RequestMethod.GET)
     public String loginWithVK(@RequestParam(required = false) String code, @RequestParam(required = false) String error, HttpSession session) throws IOException {
         if (StringUtils.isNotBlank(error)) {
-            return "redirect:/";
+            return CommonURLs.REDIRECT_ROOT;
         }
         ResponseVK responseVK = apiManager.authentication(code);
         VKUserBean vkUserBean = apiManager.getGeneralInfo(responseVK);
@@ -40,9 +40,9 @@ public class LoginController {
             session.setAttribute(PROFILE, vkUserBean);
             authenticationManager.authenticateUser(vkUserBean);
         } else {
-            return "redirect:/";
+            return CommonURLs.REDIRECT_ROOT;
         }
-        return "redirect:/my-tracks";
+        return CommonURLs.REDIRECT_MY_TRACKS_URL;
     }
 
 }

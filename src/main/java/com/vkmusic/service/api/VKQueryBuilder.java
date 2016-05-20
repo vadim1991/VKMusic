@@ -7,6 +7,7 @@ import com.vkmusic.entity.vk.FriendParamBean;
 import com.vkmusic.entity.vk.TrackParam;
 import com.vkmusic.exception.HttpConnectionException;
 import org.apache.commons.lang3.BooleanUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.http.client.utils.URIBuilder;
 import org.springframework.stereotype.Service;
 
@@ -23,11 +24,19 @@ import static com.vkmusic.datamodel.VKApiMethods.*;
 public class VKQueryBuilder {
 
     public URI getURIAudio(VKUserBean userBean, TrackParam trackParam) {
+        String ownerID = StringUtils.isBlank(trackParam.getOwnerID()) ? userBean.getId() : trackParam.getOwnerID();
         URIBuilder builder = getBuilderForVK(METHOD_AUDIO_GET)
-                .setParameter(OWNER_ID_PARAM, userBean.getId())
-                .setParameter(NEED_USER_PARAM, String.valueOf(trackParam.getNeedUser()))
+                .setParameter(OWNER_ID_PARAM, ownerID)
+                .setParameter(NEED_USER_PARAM, "0")
                 .setParameter(COUNT_PARAM, String.valueOf(trackParam.getCount()))
                 .setParameter(OFFSET_PARAM, String.valueOf(trackParam.getOffset()))
+                .setParameter(ACCESS_TOKEN_PARAM, userBean.getResponseVK().getAccess_token());
+        return buildURI(builder);
+    }
+
+    public URI getAudioByIDURI(VKUserBean userBean, String id) {
+        URIBuilder builder = getBuilderForVK(AUDIO_GET_BY_ID_METHOD)
+                .addParameter(AUDIOS_PARAM, id)
                 .setParameter(ACCESS_TOKEN_PARAM, userBean.getResponseVK().getAccess_token());
         return buildURI(builder);
     }

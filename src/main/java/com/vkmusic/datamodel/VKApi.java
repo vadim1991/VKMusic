@@ -23,4 +23,5 @@ public class VKApi {
     public static final String ORDER_PARAM = "order";
     public static final String USER_ID_PARAM = "user_id";
     public static final String HINTS_ORDER_VALUE = "hints";
+    public static final String AUDIOS_PARAM = "audios";
 }

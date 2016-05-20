@@ -10,6 +10,10 @@ public class TrackParam implements Serializable {
     private int count;
     private int offset;
     private int needUser;
+    private String ownerID;
+
+    public TrackParam() {
+    }
 
     public TrackParam(int count, int offset, int needUser) {
         this.count = count;
@@ -39,5 +43,13 @@ public class TrackParam implements Serializable {
 
     public void setNeedUser(int needUser) {
         this.needUser = needUser;
+    }
+
+    public String getOwnerID() {
+        return ownerID;
+    }
+
+    public void setOwnerID(String ownerID) {
+        this.ownerID = ownerID;
     }
 }

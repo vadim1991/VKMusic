@@ -53,6 +53,7 @@ public class JSONParser {
             }
             Track track = objectMapper.readValue(trackNode.toString(), Track.class);
             track.setUrl(track.getUrl().replaceAll(LEFT_SLASH, RIGHT_SLASH));
+            track.setSoundcloud(true);
             tracks.add(track);
         }
         return tracks;

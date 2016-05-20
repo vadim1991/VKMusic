@@ -8,11 +8,13 @@
 
     <http access-denied-page="/WEB-INF/views/error.jsp">
         <intercept-url pattern="/my-tracks*" access="ROLE_ADMIN, ROLE_USER"/>
+        <intercept-url pattern="/search*" access="ROLE_ADMIN, ROLE_USER"/>
+        <intercept-url pattern="/friends*" access="ROLE_ADMIN, ROLE_USER"/>
         <intercept-url pattern="/tracks*" access="ROLE_ADMIN, ROLE_USER"/>
         <intercept-url pattern="/home" access="ROLE_ADMIN,ROLE_USER"/>
         <form-login login-page="/login" default-target-url="/"
                     authentication-failure-url="/login.jsp?error=true" />
-        <logout logout-url="/logout" logout-success-url="/index" />
+        <logout logout-url="/logout" logout-success-url="/" />
 
         <anonymous username="guest" granted-authority="ROLE_ANONYMOUS"/>
     </http>

@@ -1,14 +1,18 @@
 package com.vkmusic.entity.vk;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.io.Serializable;
 
 /**
  * Created by Vadym_Vlasenko on 5/9/2016.
  */
+@Document
 public class Track implements Serializable {
 
+    @Id
     private String aid;
     @JsonProperty("owner_id")
     private String ownerID;
@@ -20,6 +24,7 @@ public class Track implements Serializable {
     private int duration;
     private int genre;
     private String album;
+    private boolean soundcloud;
 
     public String getAid() {
         return aid;
@@ -96,6 +101,14 @@ public class Track implements Serializable {
 
     public void setAlbum(String album) {
         this.album = album;
+    }
+
+    public boolean isSoundcloud() {
+        return soundcloud;
+    }
+
+    public void setSoundcloud(boolean soundcloud) {
+        this.soundcloud = soundcloud;
     }
 
     @Override

@@ -18,7 +18,7 @@ import java.net.URI;
 import java.util.Collections;
 import java.util.List;
 
-import static com.vkmusic.datamodel.CommonURLs.REDIRECT_URL_VK;
+import static com.vkmusic.datamodel.VKApiURLs.REDIRECT_URL_VK;
 import static com.vkmusic.datamodel.VKApi.FIELD_VALUES;
 import static com.vkmusic.datamodel.VKApiURLs.REDIRECT_URL_VK_FORMAT;
 
@@ -72,6 +72,13 @@ public class VKApiManager {
     public List<Track> searchAudio(VKUserBean userBean, AudioSearchBean searchBean) throws IOException {
         URI uriBySearchAudio = queryBuilder.getURIBySearchAudio(userBean, searchBean);
         String response = connector.sendGet(uriBySearchAudio);
+        List<Track> tracks = parser.getTracks(response);
+        return getFinalList(tracks);
+    }
+
+    public List<Track> getAudiosByID(VKUserBean userBean, String id) throws IOException {
+        URI audioByIDURI = queryBuilder.getAudioByIDURI(userBean, id);
+        String response = connector.sendGet(audioByIDURI);
         List<Track> tracks = parser.getTracks(response);
         return getFinalList(tracks);
     }
