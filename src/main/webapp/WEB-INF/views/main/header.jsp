@@ -1,31 +1,38 @@
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <c:set var="imagePath" value="../resources/images/template/"/>
 <header id="nav-header" class="clearfix">
     <!-- ## PRIMARY NAV ## -->
     <nav id="primary-nav">
         <ul class="clearfix">
-            <li class="active">
-                <a href="/my-tracks">
+                <li class="active">
+                    <a href="/my-tracks">
+                        <i class="icon-music-1"></i>
+                        <p>My Tracks</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://themeforest.quadcodes.com/site/musicvent/artists.html">
+                        <i class="icon-user-1"></i>
+                        <p>Friends</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/search">
+                        <i class="icon-calendar-2"></i>
+                        <p>Search</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://themeforest.quadcodes.com/site/musicvent/gallery.html">
+                        <i class="icon-picture"></i>
+                        <p>Gallery</p>
+                    </a>
+                </li>
+            <li>
+                <a href="/shared">
                     <i class="icon-music-1"></i>
-                    <p>My Tracks</p>
-                </a>
-            </li>
-            <li>
-                <a href="http://themeforest.quadcodes.com/site/musicvent/artists.html">
-                    <i class="icon-user-1"></i>
-                    <p>Friends</p>
-                </a>
-            </li>
-            <li>
-                <a href="http://themeforest.quadcodes.com/site/musicvent/events.html">
-                    <i class="icon-calendar-2"></i>
-                    <p>Search</p>
-                </a>
-            </li>
-            <li>
-                <a href="http://themeforest.quadcodes.com/site/musicvent/gallery.html">
-                    <i class="icon-picture"></i>
-                    <p>Gallery</p>
+                    <p>Shared Tracks</p>
                 </a>
             </li>
         </ul>

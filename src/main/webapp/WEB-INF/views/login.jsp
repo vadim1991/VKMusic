@@ -17,7 +17,7 @@
         <h2 class="job-title">VK Music Player</h2>
 
         <div>
-            <a class="button" href="http://oauth.vk.com/authorize?client_id=5450850&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fvklogin&response_type=code&display=page&scope=friends,audio,photos,notify"
+            <a class="button" href="http://oauth.vk.com/authorize?client_id=5450850&redirect_uri=http%3A%2F%2Flocalhost%3A8180%2Fvklogin&response_type=code&display=page&scope=friends,audio,photos,notify"
                title="Зайти через ВКонтакте">Sign in with VK</a>
         </div>
     </section>

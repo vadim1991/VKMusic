@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <jsp:include page="main/head.jsp">
@@ -49,9 +49,9 @@
                     <!-- BLOG-META END -->
 
                     <!-- ## PLAYER ## -->
-                    <div id="jp_container_1" class="jp-audio">
+                    <div id="jp_container_2" class="jp-audio">
                         <div class="jp-type-playlist">
-                            <div id="jquery_jplayer_1" class="jp-jplayer" style="width: 0px; height: 0px;"><img
+                            <div id="jquery_jplayer_2" class="jp-jplayer" style="width: 0px; height: 0px;"><img
                                     id="jp_poster_0" style="width: 0px; height: 0px; display: none;">
                                 <audio id="jp_audio_0" preload="metadata"
                                        src="http://3.s3.envato.com/files/5513511/preview.mp3"></audio>
@@ -69,9 +69,9 @@
                                     <div class="jp-gui jp-interface">
                                         <div class="jp-volume-controls">
                                             <a href="javascript:;" class="jp-mute" role="button" tabindex="0"><i class="icon-volume-off"></i></a>
-                                        <div class="jp-volume-bar">
-                                            <div class="jp-volume-bar-value"></div>
-                                        </div>
+                                            <div class="jp-volume-bar">
+                                                <div class="jp-volume-bar-value"></div>
+                                            </div>
                                             <a href="javascript:;" class="jp-volume-max" role="button" tabindex="0"><i class="icon-volume-off"></i></a>
 
                                         </div>
@@ -129,7 +129,11 @@
 
                     <!-- POST CONTENT -->
                     <div class="postContent transparent">
-                        <button class="button-green" id="loadMore">Load more</button>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae facere quam officiis
+                        magnam asperiores id quibusdam quidem eaque sed incidunt! Modi magni deleniti veritatis expedita
+                        doloribus aperiam alias autem numquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Dolor voluptatum laudantium quibusdam iusto molestias ut suscipit illo quisquam culpa atque.
+                        Voluptatibus quis cupiditate error tenetur optio doloremque. Sed sit optio.
                     </div>
                     <!-- POST CONTENT END -->
 
@@ -149,9 +153,9 @@
         </div>
     </footer>
     <!-- ## FOOTER END ## -->
-        <jsp:include page="main/footer.jsp">
-            <jsp:param name="pageName" value="Login | Page"></jsp:param>
-        </jsp:include>
+    <jsp:include page="main/footer.jsp">
+        <jsp:param name="pageName" value="Login | Page"></jsp:param>
+    </jsp:include>
 </section>
 <!-- ## PAGE GLOBAL END ## -->
 

@@ -203,7 +203,7 @@
                                 <i class="demo-icon aplayer-icon-volume-down"></i>
                                 <div class="aplayer-volume-bar-wrap">
                                     <div class="aplayer-volume-bar">
-                                        <div class="aplayer-volume" style="height: 80%; background: ${this.option.theme};"></div>
+                                        <div class="aplayer-volume" style="height: 50%; background: ${this.option.theme};"></div>
                                     </div>
                                 </div>
                             </div>

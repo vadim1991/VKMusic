@@ -35,10 +35,14 @@ public class AudioController {
         VKUserBean user = (VKUserBean) session.getAttribute(PROFILE);
         List<Track> trackList = new ArrayList<>();
         if (user != null) {
-            trackParam = new TrackParam(15, 0, 0);
             trackList = vkApiManager.getAudio(user, trackParam);
         }
         return trackList;
+    }
+
+    @RequestMapping(value = "/search")
+    public String search() {
+        return "search";
     }
 
     @RequestMapping(value = "/search", method = RequestMethod.POST)
