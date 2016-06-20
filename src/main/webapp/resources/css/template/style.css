@@ -432,22 +432,22 @@ p#slidecite {
     z-index: 9;
 }
 
-#page-header {
+#page-header, .custom-header {
     height: 80px;
     background: rgba(0, 0, 0, 0.65);
 }
 
-.fixed #page-header {
+.fixed #page-header, .fixed .custom-header {
     background: rgba(0, 0, 0, 0.85)
 }
 
-#page-header h1 {
+#page-header h1, .custom-header h1 {
     color: #00df83;
     font: 500 28px/78px "Helvetica Neue", Open sans, Arial, sans-serif;
     text-indent: 30px;
 }
 
-#page-header h1 span {
+#page-header h1 span, .custom-header h1 span {
     color: #fff;
     font: 100 18px/78px "Helvetica Neue", Open sans, Arial, sans-serif;
     letter-spacing: 1px;
@@ -2073,10 +2073,6 @@ html[xmlns] .slides {
     transition: all 1s ease;
 }
 
-.loading .flex-viewport {
-    max-height: 300px
-}
-
 .flexslider .slides {
     zoom: 1
 }
@@ -2582,17 +2578,17 @@ ul.tabs li a.selected {
         margin: 0 auto;
     }
 
-    #page-header {
+    #page-header, .custom-header {
         height: 60px;
     }
 
-    #page-header h1 {
+    #page-header h1, .custom-header h1 {
         font-size: 20px;
         line-height: 60px;
         text-indent: 20px;
     }
 
-    #page-header h1 span {
+    #page-header h1 span, .custom-header h1 span {
         font-size: 14px;
         line-height: 60px;
     }

@@ -14,7 +14,7 @@ public class VKApi {
     public static final String ACCESS_TOKEN_PARAM = "access_token";
     public static final String UIDS_PARAM = "uids";
     public static final String FIELDS_PARAM = "fields";
-    public static final String FIELD_VALUES = "uid,first_name,last_name,nickname,screen_name,sex,photo_200_orig";
+    public static final String FIELD_VALUES = "uid,first_name,last_name,nickname,screen_name,sex,photo_50";
     public static final String SEARCH_TEXT_PARAM = "q";
     public static final String AUTO_COMPLETE_PARAM = "auto_complete";
     public static final String PERFORMER_ONLY_PARAM = "performer_only";

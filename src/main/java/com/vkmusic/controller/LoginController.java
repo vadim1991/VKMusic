@@ -44,7 +44,7 @@ public class LoginController {
             ResponseVK responseVK = new ResponseVK(userId, token);
             if (refreshUser(responseVK, session, response)) {
                 String referer = request.getHeader(CommonConstants.REFERER);
-                referer = StringUtils.isBlank(referer) ? MY_TRACKS : referer;
+                referer = StringUtils.isBlank(referer) ? TRACKS : referer;
                 return "redirect:" + referer;
             }
         }

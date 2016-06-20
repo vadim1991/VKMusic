@@ -149,7 +149,7 @@ ul {
 }
 /* Main screen */
 .intro {
-  background: url("../images/backgroung.jpg") no-repeat;
+  /*background: url("../images/backgroung.jpg") no-repeat;*/
   background-size: cover;
   text-align: center;
 }

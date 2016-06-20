@@ -1,7 +1,6 @@
 package com.vkmusic.controller;
 
 import com.vkmusic.datamodel.CommonConstants;
-import com.vkmusic.datamodel.CommonURLs;
 import com.vkmusic.entity.VKUserBean;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,13 +17,13 @@ public class MainController {
 
     @RequestMapping(value = HOME_URL)
     public String getIndexPage() {
-        return MY_TRACKS;
+        return TRACKS;
     }
 
     @RequestMapping(value = ROOT_URL)
     public String getHomePage(HttpSession session) {
         VKUserBean profile = (VKUserBean) session.getAttribute(CommonConstants.PROFILE);
-        String page = profile == null ? LOGIN_PAGE : MY_TRACKS;
+        String page = profile == null ? LOGIN_PAGE : TRACKS;
         return page;
     }
 

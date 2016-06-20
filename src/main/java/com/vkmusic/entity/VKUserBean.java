@@ -28,7 +28,7 @@ public class VKUserBean {
     private String nickName;
     @JsonProperty("screen_name")
     private String screenName;
-    @JsonProperty("photo_200_orig")
+    @JsonProperty("photo_50")
     private String photoUrl;
     private String online;
     @JsonProperty("user_id")

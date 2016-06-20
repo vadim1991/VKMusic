@@ -8,5 +8,8 @@
 
   <link rel="stylesheet" href="../resources/css/template/css">
   <link rel="stylesheet" href="../resources/css/template/style.css">
+  <link rel="stylesheet" href="../resources/css/player.css">
+  <link rel="stylesheet" href="../resources/css/waitMe.css">
+  <link rel="stylesheet" href="../resources/css/search.css">
 </head>
 
