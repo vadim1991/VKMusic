@@ -68,7 +68,7 @@ public class AudioController {
     }
 
     @RequestMapping(value = "/share", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
-    public String shareTrack(@RequestBody String id, HttpSession session) throws IOException {
+    public @ResponseBody String shareTrack(@RequestBody String id, HttpSession session) throws IOException {
         VKUserBean user = (VKUserBean) session.getAttribute(PROFILE);
         List<Track> trackList;
         if (user!= null) {
@@ -79,9 +79,15 @@ public class AudioController {
     }
 
     @RequestMapping(value = "/tracks/add", method = RequestMethod.POST)
-    public String addTrack(@RequestBody TrackRequest trackRequest, HttpSession session) throws IOException {
+    public @ResponseBody String addTrack(@RequestBody TrackRequest trackRequest, HttpSession session) throws IOException {
         VKUserBean user = (VKUserBean) session.getAttribute(PROFILE);
         return vkApiManager.addTrackToProfile(user, trackRequest);
+    }
+
+    @RequestMapping(value = "/tracks/delete", method = RequestMethod.POST)
+    public @ResponseBody String deleteTrack(@RequestBody TrackRequest trackRequest, HttpSession session) throws IOException {
+        VKUserBean user = (VKUserBean) session.getAttribute(PROFILE);
+        return vkApiManager.deleteTrackFromProfile(user, trackRequest);
     }
 
 }

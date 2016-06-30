@@ -55,6 +55,7 @@ public class JSONParser {
             track.setUrl(track.getUrl().replaceAll(LEFT_SLASH, RIGHT_SLASH));
             track.setSoundcloud(true);
             track.setAdded(!isMyTracks);
+            track.setDelete(isMyTracks);
             tracks.add(track);
         }
         return tracks;

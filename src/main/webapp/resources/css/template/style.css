@@ -1350,7 +1350,7 @@ ul.sortable-list > li:before {
     right: 65px;
 }
 
-.jp-playlist li a.add {
+.jp-playlist li a.add, .jp-playlist li a.delete {
     position: absolute;
     top: 8px;
     right: 105px;
@@ -2689,7 +2689,7 @@ ul.tabs li a.selected {
         width: 210px;
     }
 
-    .jp-playlist li a.soundcloud, .jp-playlist li a.itunes, .jp-playlist li a.download, .jp-playlist li a.add {
+    .jp-playlist li a.soundcloud, .jp-playlist li a.itunes, .jp-playlist li a.download, .jp-playlist li a.add, .jp-playlist li a.delete {
         display: none;
     }
 

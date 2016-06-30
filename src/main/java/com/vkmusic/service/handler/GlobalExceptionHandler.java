@@ -23,10 +23,11 @@ public class GlobalExceptionHandler {
         return new ModelAndView("login");
     }
 
-//    private ModelAndView getModelForException(String view, String message) {
-//        ModelAndView modelAndView = new ModelAndView(view);
-//        modelAndView.addObject(MSG_ATTRIBUTE, message);
-//        return modelAndView;
-//    }
+    @ExceptionHandler(Exception.class)
+    public ModelAndView handleAllException(HttpServletRequest request, Exception exception) {
+        LOGGER.info("Exception Occurred:: URL=" + request.getRequestURL());
+        LOGGER.info("Exception Occurred:: message=" + exception.getMessage());
+        return new ModelAndView("login");
+    }
 
 }

@@ -24,9 +24,6 @@ import static com.vkmusic.datamodel.VKApiMethods.*;
 @Service
 public class VKQueryBuilder {
 
-    public static final String METHOD_AUDIO_ADD = "/method/audio.add";
-    public static final String AUDIO_ID_PARAM = "audio_id";
-
     public URI getURIAudio(VKUserBean userBean, TrackParam trackParam) {
         String ownerID = StringUtils.isBlank(trackParam.getOwnerID()) ? userBean.getId() : trackParam.getOwnerID();
         URIBuilder builder = getBuilderForVK(METHOD_AUDIO_GET)
@@ -77,8 +74,8 @@ public class VKQueryBuilder {
         return buildURI(builder);
     }
 
-    public URI addTrackURI(VKUserBean userBean, TrackRequest trackRequest) {
-        URIBuilder builder = getBuilderForVK(METHOD_AUDIO_ADD)
+    public URI changeTrackURI(VKUserBean userBean, TrackRequest trackRequest, String vkMethod) {
+        URIBuilder builder = getBuilderForVK(vkMethod)
                 .setParameter(AUDIO_ID_PARAM, trackRequest.getAudioID())
                 .setParameter(OWNER_ID_PARAM, trackRequest.getOwnerID())
                 .setParameter(ACCESS_TOKEN_PARAM, userBean.getResponseVK().getAccess_token());

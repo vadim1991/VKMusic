@@ -27,6 +27,7 @@ public class Track implements Serializable {
     private String album;
     private boolean soundcloud;
     private boolean added;
+    private boolean delete;
 
     public String getAid() {
         return aid;
@@ -121,6 +122,14 @@ public class Track implements Serializable {
         this.added = added;
     }
 
+    public boolean isDelete() {
+        return delete;
+    }
+
+    public void setDelete(boolean delete) {
+        this.delete = delete;
+    }
+
     @Override
     public String toString() {
         return MoreObjects.toStringHelper(this)
@@ -133,8 +142,6 @@ public class Track implements Serializable {
                 .add("duration", duration)
                 .add("genre", genre)
                 .add("album", album)
-                .add("soundcloud", soundcloud)
-                .add("isAdded", added)
                 .toString();
     }
 }

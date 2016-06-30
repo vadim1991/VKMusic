@@ -291,6 +291,21 @@ $(document).on("click", '.add', function (event) {
     });
 });
 
+$(document).on("click", '.delete', function (event) {
+    var index = $(this).parent().parent().index();
+    var track = playlist.playlist[index];
+    $.ajax({
+        url: "/tracks/delete",
+        method: "post",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        data: JSON.stringify({ownerID: track.owner_id, audioID: track.aid}),
+        success: function (data) {
+            playlist.remove(index);
+        }
+    });
+});
+
 function addFriendsToPage(data) {
     data.forEach(function (friend) {
         var element = "<li><a class='friend' href='#friend&id=" + friend.uid + "' data-id='" + friend.uid + "'><img class='friend-img' src='" + friend.photo_50 + "'><span class='track-title'>" + friend.last_name + " " + friend.first_name + "</span></a></li>";

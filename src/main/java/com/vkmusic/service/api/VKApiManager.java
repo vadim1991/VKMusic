@@ -18,6 +18,8 @@ import java.net.URI;
 import java.util.Collections;
 import java.util.List;
 
+import static com.vkmusic.datamodel.VKApiMethods.METHOD_AUDIO_ADD;
+import static com.vkmusic.datamodel.VKApiMethods.METHOD_AUDIO_DELETE;
 import static com.vkmusic.datamodel.VKApiURLs.REDIRECT_URL_VK;
 import static com.vkmusic.datamodel.VKApi.FIELD_VALUES;
 import static com.vkmusic.datamodel.VKApiURLs.REDIRECT_URL_VK_FORMAT;
@@ -85,7 +87,12 @@ public class VKApiManager {
     }
 
     public String addTrackToProfile(VKUserBean userBean, TrackRequest trackRequest) throws IOException {
-        URI addTrackURI = queryBuilder.addTrackURI(userBean, trackRequest);
+        URI addTrackURI = queryBuilder.changeTrackURI(userBean, trackRequest, METHOD_AUDIO_ADD);
+        return getResponseByURI(addTrackURI);
+    }
+
+    public String deleteTrackFromProfile(VKUserBean userBean, TrackRequest trackRequest) throws IOException {
+        URI addTrackURI = queryBuilder.changeTrackURI(userBean, trackRequest, METHOD_AUDIO_DELETE);
         return getResponseByURI(addTrackURI);
     }
 
