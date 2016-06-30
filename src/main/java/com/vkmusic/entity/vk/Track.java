@@ -1,6 +1,7 @@
 package com.vkmusic.entity.vk;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.google.common.base.MoreObjects;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -25,6 +26,7 @@ public class Track implements Serializable {
     private int genre;
     private String album;
     private boolean soundcloud;
+    private boolean added;
 
     public String getAid() {
         return aid;
@@ -111,18 +113,28 @@ public class Track implements Serializable {
         this.soundcloud = soundcloud;
     }
 
+    public boolean isAdded() {
+        return added;
+    }
+
+    public void setAdded(boolean added) {
+        this.added = added;
+    }
+
     @Override
     public String toString() {
-        return "Track{" +
-                "aid='" + aid + '\'' +
-                ", ownerID='" + ownerID + '\'' +
-                ", artist='" + artist + '\'' +
-                ", title='" + title + '\'' +
-                ", url='" + url + '\'' +
-                ", lyricsID='" + lyricsID + '\'' +
-                ", duration=" + duration +
-                ", genre=" + genre +
-                ", album='" + album + '\'' +
-                '}';
+        return MoreObjects.toStringHelper(this)
+                .add("aid", aid)
+                .add("ownerID", ownerID)
+                .add("artist", artist)
+                .add("title", title)
+                .add("url", url)
+                .add("lyricsID", lyricsID)
+                .add("duration", duration)
+                .add("genre", genre)
+                .add("album", album)
+                .add("soundcloud", soundcloud)
+                .add("isAdded", added)
+                .toString();
     }
 }

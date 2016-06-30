@@ -43,7 +43,7 @@ public class JSONParser {
         return objectMapper.readValue(response, ResponseVK.class);
     }
 
-    public List<Track> getTracks(String response) throws IOException {
+    public List<Track> getTracks(String response, boolean isMyTracks) throws IOException {
         List<Track> tracks = new ArrayList<>();
         JsonNode jsonNode = objectMapper.readTree(response);
         JsonNode trackNodes = jsonNode.get(RESPONSE);
@@ -54,6 +54,7 @@ public class JSONParser {
             Track track = objectMapper.readValue(trackNode.toString(), Track.class);
             track.setUrl(track.getUrl().replaceAll(LEFT_SLASH, RIGHT_SLASH));
             track.setSoundcloud(true);
+            track.setAdded(!isMyTracks);
             tracks.add(track);
         }
         return tracks;

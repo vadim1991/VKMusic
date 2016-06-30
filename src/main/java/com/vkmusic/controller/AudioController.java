@@ -4,6 +4,7 @@ import com.vkmusic.entity.VKUserBean;
 import com.vkmusic.entity.vk.AudioSearchBean;
 import com.vkmusic.entity.vk.Track;
 import com.vkmusic.entity.vk.TrackParam;
+import com.vkmusic.entity.vk.TrackRequest;
 import com.vkmusic.service.api.VKApiManager;
 import com.vkmusic.service.track.TrackService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -72,9 +73,15 @@ public class AudioController {
         List<Track> trackList;
         if (user!= null) {
             trackList = vkApiManager.getAudiosByID(user, id);
-            System.out.println(trackList);
             trackService.save(trackList.get(0));
         }
         return "ok";
     }
+
+    @RequestMapping(value = "/tracks/add", method = RequestMethod.POST)
+    public String addTrack(@RequestBody TrackRequest trackRequest, HttpSession session) throws IOException {
+        VKUserBean user = (VKUserBean) session.getAttribute(PROFILE);
+        return vkApiManager.addTrackToProfile(user, trackRequest);
+    }
+
 }

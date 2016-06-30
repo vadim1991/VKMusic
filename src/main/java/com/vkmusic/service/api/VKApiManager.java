@@ -4,14 +4,12 @@ import com.vkmusic.datamodel.CommonConstants;
 import com.vkmusic.entity.AuthenticationConfig;
 import com.vkmusic.entity.ResponseVK;
 import com.vkmusic.entity.VKUserBean;
-import com.vkmusic.entity.vk.AudioSearchBean;
-import com.vkmusic.entity.vk.FriendParamBean;
-import com.vkmusic.entity.vk.Track;
-import com.vkmusic.entity.vk.TrackParam;
+import com.vkmusic.entity.vk.*;
 import com.vkmusic.exception.VKIntegrationException;
 import com.vkmusic.exception.VKInvalidTokenException;
 import com.vkmusic.service.parser.JSONParser;
 import org.apache.commons.collections.CollectionUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -65,24 +63,30 @@ public class VKApiManager {
     }
 
     public List<Track> getAudio(VKUserBean userBean, TrackParam trackParam) throws IOException {
+        boolean isMyTracks = StringUtils.isBlank(trackParam.getOwnerID());
         URI uriAudio = queryBuilder.getURIAudio(userBean, trackParam);
         String response = getResponseByURI(uriAudio);
-        List<Track> tracks = parser.getTracks(response);
+        List<Track> tracks = parser.getTracks(response, isMyTracks);
         return getFinalList(tracks);
     }
 
     public List<Track> searchAudio(VKUserBean userBean, AudioSearchBean searchBean) throws IOException {
         URI uriBySearchAudio = queryBuilder.getURIBySearchAudio(userBean, searchBean);
         String response = getResponseByURI(uriBySearchAudio);
-        List<Track> tracks = parser.getTracks(response);
+        List<Track> tracks = parser.getTracks(response, false);
         return getFinalList(tracks);
     }
 
     public List<Track> getAudiosByID(VKUserBean userBean, String id) throws IOException {
         URI audioByIDURI = queryBuilder.getAudioByIDURI(userBean, id);
         String response = getResponseByURI(audioByIDURI);
-        List<Track> tracks = parser.getTracks(response);
+        List<Track> tracks = parser.getTracks(response, false);
         return getFinalList(tracks);
+    }
+
+    public String addTrackToProfile(VKUserBean userBean, TrackRequest trackRequest) throws IOException {
+        URI addTrackURI = queryBuilder.addTrackURI(userBean, trackRequest);
+        return getResponseByURI(addTrackURI);
     }
 
     private String getResponseByURI(URI uri) throws IOException {

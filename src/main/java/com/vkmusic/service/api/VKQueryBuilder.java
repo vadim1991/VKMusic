@@ -5,6 +5,7 @@ import com.vkmusic.entity.VKUserBean;
 import com.vkmusic.entity.vk.AudioSearchBean;
 import com.vkmusic.entity.vk.FriendParamBean;
 import com.vkmusic.entity.vk.TrackParam;
+import com.vkmusic.entity.vk.TrackRequest;
 import com.vkmusic.exception.HttpConnectionException;
 import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -22,6 +23,9 @@ import static com.vkmusic.datamodel.VKApiMethods.*;
  */
 @Service
 public class VKQueryBuilder {
+
+    public static final String METHOD_AUDIO_ADD = "/method/audio.add";
+    public static final String AUDIO_ID_PARAM = "audio_id";
 
     public URI getURIAudio(VKUserBean userBean, TrackParam trackParam) {
         String ownerID = StringUtils.isBlank(trackParam.getOwnerID()) ? userBean.getId() : trackParam.getOwnerID();
@@ -70,6 +74,14 @@ public class VKQueryBuilder {
                 .setParameter(UIDS_PARAM, responseVK.getUser_id())
                 .setParameter(FIELDS_PARAM, fields)
                 .setParameter(ACCESS_TOKEN_PARAM, responseVK.getAccess_token());
+        return buildURI(builder);
+    }
+
+    public URI addTrackURI(VKUserBean userBean, TrackRequest trackRequest) {
+        URIBuilder builder = getBuilderForVK(METHOD_AUDIO_ADD)
+                .setParameter(AUDIO_ID_PARAM, trackRequest.getAudioID())
+                .setParameter(OWNER_ID_PARAM, trackRequest.getOwnerID())
+                .setParameter(ACCESS_TOKEN_PARAM, userBean.getResponseVK().getAccess_token());
         return buildURI(builder);
     }
 

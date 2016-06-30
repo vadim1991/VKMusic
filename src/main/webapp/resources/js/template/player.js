@@ -236,6 +236,8 @@ function changeActiveMenu(element) {
 }
 
 $(document).on("click", '.friend', function (event) {
+    $(".friend").removeClass("green");
+    $(this).addClass("green");
     action = "friends";
     offsetTracksValue = 0;
     friendID = $(this).attr("data-id");
@@ -259,7 +261,7 @@ $(document).on("click", '.friend', function (event) {
 
 
 $(document).on("click", '.soundcloud', function (event) {
-    $(this).addClass("green");
+    var currentElement = $(this);
     $.ajax({
         url: "/share",
         method: "post",
@@ -269,8 +271,22 @@ $(document).on("click", '.soundcloud', function (event) {
             id: playlist.playlist[$(this).parent().parent().index()].aid
         },
         success: function (data) {
-            $(this).addClass("green");
-            console.log(data);
+            currentElement.addClass("green");
+        }
+    });
+});
+
+$(document).on("click", '.add', function (event) {
+    var currentElement = $(this);
+    var track = playlist.playlist[$(this).parent().parent().index()];
+    $.ajax({
+        url: "/tracks/add",
+        method: "post",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        data: JSON.stringify({ownerID: track.owner_id, audioID: track.aid}),
+        success: function (data) {
+            currentElement.addClass("green");
         }
     });
 });

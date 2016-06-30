@@ -96,7 +96,7 @@ body {
 }
 
 .green {
-    color: #00DF83;
+    color: #00DF83 !important;
 }
 
 #music a.jp-play {
@@ -1348,6 +1348,12 @@ ul.sortable-list > li:before {
     position: absolute;
     top: 8px;
     right: 65px;
+}
+
+.jp-playlist li a.add {
+    position: absolute;
+    top: 8px;
+    right: 105px;
 }
 
 li.jp-playlist-current {
@@ -2683,7 +2689,7 @@ ul.tabs li a.selected {
         width: 210px;
     }
 
-    .jp-playlist li a.soundcloud, .jp-playlist li a.itunes, .jp-playlist li a.download {
+    .jp-playlist li a.soundcloud, .jp-playlist li a.itunes, .jp-playlist li a.download, .jp-playlist li a.add {
         display: none;
     }
 
